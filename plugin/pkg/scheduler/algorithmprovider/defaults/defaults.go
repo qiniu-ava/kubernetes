@@ -116,7 +116,9 @@ func init() {
 	// Optional, cluster-autoscaler friendly priority function - give used nodes higher priority.
 	factory.RegisterPriorityFunction2("MostRequestedPriority", priorities.MostRequestedPriorityMap, nil, 1)
 
-	factory.RegisterPriorityFunction2("GPULeastRemainPriority", priorities.GPULeastRemainPriorityMap, nil, 1)
+	// LeastRemainedGPUPriority prioritizes nodes based on remained GPUs after scheduled.
+	// Nodes with less remained GPUs will be preferred.
+	factory.RegisterPriorityFunction2("LeastRemainedGPUPriority", priorities.LeastRemainedGPUPriorityMap, priorities.LeastRemainedGPUPriorityReduce, 10)
 }
 
 func defaultPredicates() sets.String {

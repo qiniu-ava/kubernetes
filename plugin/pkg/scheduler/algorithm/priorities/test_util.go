@@ -59,3 +59,20 @@ func priorityFunction(mapFn algorithm.PriorityMapFunction, reduceFn algorithm.Pr
 		return result, nil
 	}
 }
+
+func makeGPUNode(node string, milliCPU, memory, numGPU int64, gpuModel string) *v1.Node {
+	return &v1.Node{
+		ObjectMeta: metav1.ObjectMeta{Name: node},
+		Status: v1.NodeStatus{
+			Capacity: v1.ResourceList{
+				"cpu":    *resource.NewMilliQuantity(milliCPU, resource.DecimalSI),
+				"memory": *resource.NewQuantity(memory, resource.BinarySI),
+				"alpha.kubernetes.io/nvidia-gpu": *resource.NewQuantity(numGPU, resource.DecimalSI),
+			},
+			Allocatable: v1.ResourceList{
+				"cpu":    *resource.NewMilliQuantity(milliCPU, resource.DecimalSI),
+				"memory": *resource.NewQuantity(memory, resource.BinarySI),
+				"alpha.kubernetes.io/nvidia-gpu": *resource.NewQuantity(numGPU, resource.DecimalSI)},
+		},
+	}
+}
