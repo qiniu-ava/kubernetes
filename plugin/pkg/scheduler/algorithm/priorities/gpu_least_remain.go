@@ -6,6 +6,8 @@ import (
 	"k8s.io/kubernetes/pkg/api/v1"
 	schedulerapi "k8s.io/kubernetes/plugin/pkg/scheduler/api"
 	"k8s.io/kubernetes/plugin/pkg/scheduler/schedulercache"
+
+	"github.com/golang/glog"
 )
 
 // GPULeastRemainPriorityMap favors node with less available gpu resource remains.
@@ -17,12 +19,12 @@ func GPULeastRemainPriorityMap(pod *v1.Pod, meta interface{}, nodeInfo *schedule
 		return schedulerapi.HostPriority{}, fmt.Errorf("node not found")
 	}
 
-	var requestedGPU int64 = 0
+	var requestGPU int64 = 0
 	for _, container := range pod.Spec.Containers {
 		for rName, rQuantity := range container.Resources.Requests {
 			switch rName {
 			case v1.ResourceNvidiaGPU:
-				requestedGPU += rQuantity.Value()
+				requestGPU += rQuantity.Value()
 			}
 		}
 	}
@@ -31,15 +33,26 @@ func GPULeastRemainPriorityMap(pod *v1.Pod, meta interface{}, nodeInfo *schedule
 
 	return schedulerapi.HostPriority{
 		Host:  node.Name,
-		Score: getGPULeastRemainScore(allocatableGPU, allocatedGPU, requestedGPU),
+		Score: getGPULeastRemainScore(allocatableGPU, allocatedGPU, requestGPU),
 	}, nil
 }
 
-func getGPULeastRemainScore(allocatableGPU, allocatedGPU, requestGPU int64) int {
-	remainGPUAfter := int(allocatableGPU - allocatedGPU - requestGPU)
-	if remainGPUAfter < 0 {
-		return 0
+func getGPULeastRemainScore(allocatableGPU, allocatedGPU, requestGPU int64) (score int) {
+	defer func() {
+		glog.V(2).Infof("allocatable: %d, allocated: %d, request: %d, GPULeastReaminScore: %d",
+			allocatableGPU, allocatedGPU, requestGPU, score)
+	}()
+
+	if requestGPU == 0 {
+		score = 0
 	} else {
-		return 100 - remainGPUAfter // mayby thereis node with more than 100 GPU? TODO
+		remainGPUAfter := int(allocatableGPU - allocatedGPU - requestGPU)
+		if remainGPUAfter < 0 {
+			score = 0
+		} else {
+			score = 100 - remainGPUAfter // mayby there is node with more than 100 GPU? TODO
+		}
 	}
+
+	return score
 }
