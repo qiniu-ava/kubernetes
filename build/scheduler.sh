@@ -17,9 +17,9 @@ cd ${DIR}/.. # project root path
 
 mkdir -p ./_output/images/kube-scheduler
 cp ./build/build-image/ava-scheduler.Dockerfile ./_output/images/kube-scheduler/ava-scheduler.Dockerfile
-docker build -t ava-kube-scheduler:test -f ./_output/images/kube-scheduler/ava-scheduler.Dockerfile ./_output/dockerized
+docker build -t ava-kube-scheduler:latest -f ./_output/images/kube-scheduler/ava-scheduler.Dockerfile ./_output/dockerized
 
 if $push; then
-	docker tag ava-kube-scheduler:test reg-xs.qiniu.io/atlab/ava-kube-scheduler:test
-	docker push reg-xs.qiniu.io/atlab/ava-kube-scheduler:test
+	docker tag ava-kube-scheduler:latest reg-xs.qiniu.io/atlab/ava-kube-scheduler:latest
+	docker push reg-xs.qiniu.io/atlab/ava-kube-scheduler:latest
 fi

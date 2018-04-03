@@ -47,6 +47,8 @@ const (
 	StatefulSetKind = "StatefulSet"
 	// KubeMaxPDVols defines the maximum number of PD Volumes per kubelet
 	KubeMaxPDVols = "KUBE_MAX_PD_VOLS"
+
+	avaSchedulerProvider = "AVAProvider"
 )
 
 func init() {
@@ -60,12 +62,18 @@ func init() {
 			return priorities.PriorityMetadata
 		})
 
+	defaultPredicateSets := defaultPredicates()
+	defaultPrioritieSets := defaultPriorities()
 	// Registers algorithm providers. By default we use 'DefaultProvider', but user can specify one to be used
 	// by specifying flag.
-	factory.RegisterAlgorithmProvider(factory.DefaultProvider, defaultPredicates(), defaultPriorities())
+	factory.RegisterAlgorithmProvider(factory.DefaultProvider, defaultPredicateSets, defaultPrioritieSets)
+
 	// Cluster autoscaler friendly scheduling algorithm.
-	factory.RegisterAlgorithmProvider(ClusterAutoscalerProvider, defaultPredicates(),
-		copyAndReplace(defaultPriorities(), "LeastRequestedPriority", "MostRequestedPriority"))
+	factory.RegisterAlgorithmProvider(ClusterAutoscalerProvider, defaultPredicateSets,
+		copyAndReplace(defaultPrioritieSets, "LeastRequestedPriority", "MostRequestedPriority"))
+
+	factory.RegisterAlgorithmProvider(avaSchedulerProvider, defaultPredicateSets,
+		copyAndExtend(defaultPrioritieSets, "LeastRemainedGPUPriority"))
 
 	// Registers predicates and priorities that are not enabled by default, but user can pick when creating his
 	// own set of priorities/predicates.
@@ -115,6 +123,10 @@ func init() {
 	factory.RegisterPriorityFunction2("ImageLocalityPriority", priorities.ImageLocalityPriorityMap, nil, 1)
 	// Optional, cluster-autoscaler friendly priority function - give used nodes higher priority.
 	factory.RegisterPriorityFunction2("MostRequestedPriority", priorities.MostRequestedPriorityMap, nil, 1)
+
+	// LeastRemainedGPUPriority prioritizes nodes based on remained GPUs after scheduled.
+	// Nodes with less remained GPUs will be preferred.
+	factory.RegisterPriorityFunction2("LeastRemainedGPUPriority", priorities.LeastRemainedGPUPriorityMap, priorities.LeastRemainedGPUPriorityReduce, 100)
 }
 
 func defaultPredicates() sets.String {
@@ -226,10 +238,6 @@ func defaultPriorities() sets.String {
 
 		// TODO: explain what it does.
 		factory.RegisterPriorityFunction2("TaintTolerationPriority", priorities.ComputeTaintTolerationPriorityMap, priorities.ComputeTaintTolerationPriorityReduce, 1),
-
-		// LeastRemainedGPUPriority prioritizes nodes based on remained GPUs after scheduled.
-		// Nodes with less remained GPUs will be preferred.
-		factory.RegisterPriorityFunction2("LeastRemainedGPUPriority", priorities.LeastRemainedGPUPriorityMap, priorities.LeastRemainedGPUPriorityReduce, 10),
 	)
 }
 
@@ -254,6 +262,12 @@ func copyAndReplace(set sets.String, replaceWhat, replaceWith string) sets.Strin
 		result.Delete(replaceWhat)
 		result.Insert(replaceWith)
 	}
+	return result
+}
+
+func copyAndExtend(set sets.String, items ...string) sets.String {
+	result := sets.NewString(set.List()...)
+	result.Insert(items...)
 	return result
 }
 
