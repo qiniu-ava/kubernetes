@@ -126,7 +126,8 @@ func init() {
 
 	// LeastRemainedGPUPriority prioritizes nodes based on remained GPUs after scheduled.
 	// Nodes with less remained GPUs will be preferred.
-	factory.RegisterPriorityFunction2("LeastRemainedGPUPriority", priorities.LeastRemainedGPUPriorityMap, priorities.LeastRemainedGPUPriorityReduce, 100)
+	// factory.RegisterPriorityFunction2("LeastRemainedGPUPriority", priorities.LeastRemainedGPUPriorityMap, priorities.LeastRemainedGPUPriorityReduce, 100)
+	factory.RegisterPriorityFunction2("LeastRemainedGPUPriority", priorities.LeastRemainedGPUPriorityMap, nil, 100)
 }
 
 func defaultPredicates() sets.String {
