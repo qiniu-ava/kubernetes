@@ -115,10 +115,6 @@ func init() {
 	factory.RegisterPriorityFunction2("ImageLocalityPriority", priorities.ImageLocalityPriorityMap, nil, 1)
 	// Optional, cluster-autoscaler friendly priority function - give used nodes higher priority.
 	factory.RegisterPriorityFunction2("MostRequestedPriority", priorities.MostRequestedPriorityMap, nil, 1)
-
-	// LeastRemainedGPUPriority prioritizes nodes based on remained GPUs after scheduled.
-	// Nodes with less remained GPUs will be preferred.
-	factory.RegisterPriorityFunction2("LeastRemainedGPUPriority", priorities.LeastRemainedGPUPriorityMap, priorities.LeastRemainedGPUPriorityReduce, 10)
 }
 
 func defaultPredicates() sets.String {
@@ -230,6 +226,10 @@ func defaultPriorities() sets.String {
 
 		// TODO: explain what it does.
 		factory.RegisterPriorityFunction2("TaintTolerationPriority", priorities.ComputeTaintTolerationPriorityMap, priorities.ComputeTaintTolerationPriorityReduce, 1),
+
+		// LeastRemainedGPUPriority prioritizes nodes based on remained GPUs after scheduled.
+		// Nodes with less remained GPUs will be preferred.
+		factory.RegisterPriorityFunction2("LeastRemainedGPUPriority", priorities.LeastRemainedGPUPriorityMap, priorities.LeastRemainedGPUPriorityReduce, 10),
 	)
 }
 
