@@ -6,6 +6,8 @@ import (
 	"k8s.io/kubernetes/pkg/api/v1"
 	schedulerapi "k8s.io/kubernetes/plugin/pkg/scheduler/api"
 	"k8s.io/kubernetes/plugin/pkg/scheduler/schedulercache"
+
+	"github.com/golang/glog"
 )
 
 // LeastRemainedGPUPriorityMap prefer nodes with less remained GPUs if the pod is scheduled on.
@@ -40,12 +42,15 @@ func LeastRemainedGPUPriorityMap(pod *v1.Pod, meta interface{}, nodeInfo *schedu
 		return noGPUPriority, nil
 	}
 	remained := capableGPU - limitedGPU
-	if remained <= 0 {
+	if remained < 0 {
 		return noGPUPriority, nil
 	}
 	if remained >= 100 {
 		remained = 99
 	}
+
+	glog.V(7).Infof("%v -> %v: Least Remained GPU Priority, capacity %d, limits %d, remained %d, score %d",
+		pod.Name, node.Name, capableGPU, limitedGPU, remained, 100-int(remained))
 
 	return schedulerapi.HostPriority{
 		Host:  node.Name,
