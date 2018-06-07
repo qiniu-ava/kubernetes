@@ -3,12 +3,14 @@ package priorities
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api/v1"
+	"k8s.io/api/core/v1"
 	schedulerapi "k8s.io/kubernetes/plugin/pkg/scheduler/api"
 	"k8s.io/kubernetes/plugin/pkg/scheduler/schedulercache"
 
 	"github.com/golang/glog"
 )
+
+const maxGPUPriority = 100
 
 // LeastRemainedGPUPriorityMap prefer nodes with less remained GPUs if the pod is scheduled on.
 // score = (100 - remained GPU after scheduled)
@@ -17,43 +19,36 @@ func LeastRemainedGPUPriorityMap(pod *v1.Pod, meta interface{}, nodeInfo *schedu
 	if node == nil {
 		return schedulerapi.HostPriority{}, fmt.Errorf("node not found")
 	}
-	noGPUPriority := schedulerapi.HostPriority{
+	zeroPriority := schedulerapi.HostPriority{
 		Host: node.Name,
 	}
 	// return fast
+	var requestingGPU int64
+	for _, container := range pod.Spec.Containers {
+		requestingGPU += container.Resources.Limits.NvidiaGPU().Value()
+	}
+	if requestingGPU <= 0 {
+		return zeroPriority, nil
+	}
+
 	if nodeInfo.AllocatableResource().NvidiaGPU == 0 {
-		return noGPUPriority, nil
+		return zeroPriority, nil
 	}
 	capableGPU := nodeInfo.AllocatableResource().NvidiaGPU - nodeInfo.RequestedResource().NvidiaGPU
 	if capableGPU <= 0 {
-		return noGPUPriority, nil
+		return zeroPriority, nil
 	}
 
-	var limitedGPU int64
-	for _, container := range pod.Spec.Containers {
-		for rName, rQuantity := range container.Resources.Limits { // for GPU, only limits is required to be specified.
-			switch rName {
-			case v1.ResourceNvidiaGPU:
-				limitedGPU += rQuantity.Value()
-			}
-		}
-	}
-	if limitedGPU == 0 {
-		return noGPUPriority, nil
-	}
-	remained := capableGPU - limitedGPU
-	if remained < 0 {
-		return noGPUPriority, nil
-	}
-	if remained >= 100 {
-		remained = 99
+	score := maxGPUPriority - int(capableGPU-requestingGPU)
+	if score <= 1 {
+		score = 1
 	}
 
-	glog.V(7).Infof("%v -> %v: Least Remained GPU Priority, capacity %d, limits %d, remained %d, score %d",
-		pod.Name, node.Name, capableGPU, limitedGPU, remained, 100-int(remained))
+	glog.V(7).Infof("%v -> %v: Least Remained GPU Priority, allocatable %d, capable %d, requesting %d, score %d",
+		pod.Name, node.Name, nodeInfo.AllocatableResource().NvidiaGPU, capableGPU, requestingGPU, score)
 
 	return schedulerapi.HostPriority{
 		Host:  node.Name,
-		Score: 100 - int(remained),
+		Score: score,
 	}, nil
 }

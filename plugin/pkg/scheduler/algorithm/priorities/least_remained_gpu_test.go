@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
+	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/api/v1"
 	schedulerapi "k8s.io/kubernetes/plugin/pkg/scheduler/api"
 	"k8s.io/kubernetes/plugin/pkg/scheduler/schedulercache"
 )
@@ -20,16 +20,16 @@ func TestLeastRemainedGPU(t *testing.T) {
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						"cpu":    resource.MustParse("1000m"),
-						"memory": resource.MustParse("0"),
+						v1.ResourceCPU:    resource.MustParse("1000m"),
+						v1.ResourceMemory: resource.MustParse("0"),
 					},
 				},
 			},
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						"cpu":    resource.MustParse("2000m"),
-						"memory": resource.MustParse("0"),
+						v1.ResourceCPU:    resource.MustParse("2000m"),
+						v1.ResourceMemory: resource.MustParse("0"),
 					},
 				},
 			},
@@ -41,16 +41,16 @@ func TestLeastRemainedGPU(t *testing.T) {
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						"cpu":    resource.MustParse("1000m"),
-						"memory": resource.MustParse("2000"),
+						v1.ResourceCPU:    resource.MustParse("1000m"),
+						v1.ResourceMemory: resource.MustParse("2000"),
 					},
 				},
 			},
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						"cpu":    resource.MustParse("2000m"),
-						"memory": resource.MustParse("3000"),
+						v1.ResourceCPU:    resource.MustParse("2000m"),
+						v1.ResourceMemory: resource.MustParse("3000"),
 					},
 				},
 			},
@@ -62,20 +62,20 @@ func TestLeastRemainedGPU(t *testing.T) {
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						"cpu":    resource.MustParse("1000m"),
-						"memory": resource.MustParse("0"),
-						"alpha.kubernetes.io/nvidia-gpu": resource.MustParse("1"),
+						v1.ResourceCPU:       resource.MustParse("1000m"),
+						v1.ResourceMemory:    resource.MustParse("0"),
+						v1.ResourceNvidiaGPU: resource.MustParse("1"),
 					},
 					Limits: v1.ResourceList{
-						"alpha.kubernetes.io/nvidia-gpu": resource.MustParse("1"),
+						v1.ResourceNvidiaGPU: resource.MustParse("1"),
 					},
 				},
 			},
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						"cpu":    resource.MustParse("2000m"),
-						"memory": resource.MustParse("0"),
+						v1.ResourceCPU:    resource.MustParse("2000m"),
+						v1.ResourceMemory: resource.MustParse("0"),
 					},
 				},
 			},
@@ -87,24 +87,24 @@ func TestLeastRemainedGPU(t *testing.T) {
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						"cpu":    resource.MustParse("1000m"),
-						"memory": resource.MustParse("0"),
-						"alpha.kubernetes.io/nvidia-gpu": resource.MustParse("1"),
+						v1.ResourceCPU:       resource.MustParse("1000m"),
+						v1.ResourceMemory:    resource.MustParse("0"),
+						v1.ResourceNvidiaGPU: resource.MustParse("1"),
 					},
 					Limits: v1.ResourceList{
-						"alpha.kubernetes.io/nvidia-gpu": resource.MustParse("1"),
+						v1.ResourceNvidiaGPU: resource.MustParse("1"),
 					},
 				},
 			},
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						"cpu":    resource.MustParse("2000m"),
-						"memory": resource.MustParse("0"),
-						"alpha.kubernetes.io/nvidia-gpu": resource.MustParse("1"),
+						v1.ResourceCPU:       resource.MustParse("2000m"),
+						v1.ResourceMemory:    resource.MustParse("0"),
+						v1.ResourceNvidiaGPU: resource.MustParse("1"),
 					},
 					Limits: v1.ResourceList{
-						"alpha.kubernetes.io/nvidia-gpu": resource.MustParse("1"),
+						v1.ResourceNvidiaGPU: resource.MustParse("1"),
 					},
 				},
 			},
@@ -116,12 +116,12 @@ func TestLeastRemainedGPU(t *testing.T) {
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						"cpu":    resource.MustParse("1000m"),
-						"memory": resource.MustParse("0"),
-						"alpha.kubernetes.io/nvidia-gpu": resource.MustParse("1"),
+						v1.ResourceCPU:       resource.MustParse("1000m"),
+						v1.ResourceMemory:    resource.MustParse("0"),
+						v1.ResourceNvidiaGPU: resource.MustParse("1"),
 					},
 					Limits: v1.ResourceList{
-						"alpha.kubernetes.io/nvidia-gpu": resource.MustParse("1"),
+						v1.ResourceNvidiaGPU: resource.MustParse("1"),
 					},
 				},
 			},
@@ -133,12 +133,12 @@ func TestLeastRemainedGPU(t *testing.T) {
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						"cpu":    resource.MustParse("1000m"),
-						"memory": resource.MustParse("0"),
-						"alpha.kubernetes.io/nvidia-gpu": resource.MustParse("4"),
+						v1.ResourceCPU:       resource.MustParse("1000m"),
+						v1.ResourceMemory:    resource.MustParse("0"),
+						v1.ResourceNvidiaGPU: resource.MustParse("4"),
 					},
 					Limits: v1.ResourceList{
-						"alpha.kubernetes.io/nvidia-gpu": resource.MustParse("4"),
+						v1.ResourceNvidiaGPU: resource.MustParse("4"),
 					},
 				},
 			},

@@ -220,8 +220,8 @@ func registerAlgorithmProvider(predSet, priSet sets.String) {
 	factory.RegisterAlgorithmProvider(ClusterAutoscalerProvider, predSet,
 		copyAndReplace(priSet, "LeastRequestedPriority", "MostRequestedPriority"))
 
-	factory.RegisterAlgorithmProvider(avaSchedulerProvider, defaultPredicateSets,
-		copyAndExtend(defaultPrioritieSets, "LeastRemainedGPUPriority"))
+	factory.RegisterAlgorithmProvider(avaSchedulerProvider, predSet,
+		copyAndExtend(priSet, "LeastRemainedGPUPriority"))
 
 }
 

@@ -65,14 +65,14 @@ func makeGPUNode(node string, milliCPU, memory, numGPU int64, gpuModel string) *
 		ObjectMeta: metav1.ObjectMeta{Name: node},
 		Status: v1.NodeStatus{
 			Capacity: v1.ResourceList{
-				"cpu":    *resource.NewMilliQuantity(milliCPU, resource.DecimalSI),
-				"memory": *resource.NewQuantity(memory, resource.BinarySI),
-				"alpha.kubernetes.io/nvidia-gpu": *resource.NewQuantity(numGPU, resource.DecimalSI),
+				v1.ResourceCPU:       *resource.NewMilliQuantity(milliCPU, resource.DecimalSI),
+				v1.ResourceMemory:    *resource.NewQuantity(memory, resource.BinarySI),
+				v1.ResourceNvidiaGPU: *resource.NewQuantity(numGPU, resource.DecimalSI),
 			},
 			Allocatable: v1.ResourceList{
-				"cpu":    *resource.NewMilliQuantity(milliCPU, resource.DecimalSI),
-				"memory": *resource.NewQuantity(memory, resource.BinarySI),
-				"alpha.kubernetes.io/nvidia-gpu": *resource.NewQuantity(numGPU, resource.DecimalSI)},
+				v1.ResourceCPU:       *resource.NewMilliQuantity(milliCPU, resource.DecimalSI),
+				v1.ResourceMemory:    *resource.NewQuantity(memory, resource.BinarySI),
+				v1.ResourceNvidiaGPU: *resource.NewQuantity(numGPU, resource.DecimalSI)},
 		},
 	}
 }
