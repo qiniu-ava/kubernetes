@@ -36,6 +36,8 @@ const (
 	ClusterAutoscalerProvider = "ClusterAutoscalerProvider"
 	// StatefulSetKind defines the name of 'StatefulSet' kind
 	StatefulSetKind = "StatefulSet"
+
+	avaSchedulerProvider = "AVAProvider"
 )
 
 func init() {
@@ -114,6 +116,11 @@ func init() {
 	if utilfeature.DefaultFeatureGate.Enabled(features.ResourceLimitsPriorityFunction) {
 		factory.RegisterPriorityFunction2("ResourceLimitsPriority", priorities.ResourceLimitsPriorityMap, nil, 1)
 	}
+
+	// LeastRemainedGPUPriority prioritizes nodes based on remained GPUs after scheduled.
+	// Nodes with less remained GPUs will be preferred.
+	// factory.RegisterPriorityFunction2("LeastRemainedGPUPriority", priorities.LeastRemainedGPUPriorityMap, priorities.LeastRemainedGPUPriorityReduce, 100)
+	factory.RegisterPriorityFunction2("LeastRemainedGPUPriority", priorities.LeastRemainedGPUPriorityMap, nil, 100)
 }
 
 func defaultPredicates() sets.String {
@@ -212,6 +219,10 @@ func registerAlgorithmProvider(predSet, priSet sets.String) {
 	// Cluster autoscaler friendly scheduling algorithm.
 	factory.RegisterAlgorithmProvider(ClusterAutoscalerProvider, predSet,
 		copyAndReplace(priSet, "LeastRequestedPriority", "MostRequestedPriority"))
+
+	factory.RegisterAlgorithmProvider(avaSchedulerProvider, predSet,
+		copyAndExtend(priSet, "LeastRemainedGPUPriority"))
+
 }
 
 func defaultPriorities() sets.String {
@@ -262,5 +273,11 @@ func copyAndReplace(set sets.String, replaceWhat, replaceWith string) sets.Strin
 		result.Delete(replaceWhat)
 		result.Insert(replaceWith)
 	}
+	return result
+}
+
+func copyAndExtend(set sets.String, items ...string) sets.String {
+	result := sets.NewString(set.List()...)
+	result.Insert(items...)
 	return result
 }
