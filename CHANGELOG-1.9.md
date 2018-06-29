@@ -1,206 +1,206 @@
 <!-- BEGIN MUNGE: GENERATED_TOC -->
 - [v1.9.10](#v1910)
-  - [Downloads for v1.9.10](#downloads-for-v1910)
-    - [Client Binaries](#client-binaries)
-    - [Server Binaries](#server-binaries)
-    - [Node Binaries](#node-binaries)
-  - [Changelog since v1.9.9](#changelog-since-v199)
-    - [Other notable changes](#other-notable-changes)
+    - [Downloads for v1.9.10](#downloads-for-v1910)
+        - [Client Binaries](#client-binaries)
+        - [Server Binaries](#server-binaries)
+        - [Node Binaries](#node-binaries)
+    - [Changelog since v1.9.9](#changelog-since-v199)
+        - [Other notable changes](#other-notable-changes)
 - [v1.9.9](#v199)
-  - [Downloads for v1.9.9](#downloads-for-v199)
-    - [Client Binaries](#client-binaries-1)
-    - [Server Binaries](#server-binaries-1)
-    - [Node Binaries](#node-binaries-1)
-  - [Changelog since v1.9.8](#changelog-since-v198)
-    - [Action Required](#action-required)
-    - [Other notable changes](#other-notable-changes-1)
+    - [Downloads for v1.9.9](#downloads-for-v199)
+        - [Client Binaries](#client-binaries-1)
+        - [Server Binaries](#server-binaries-1)
+        - [Node Binaries](#node-binaries-1)
+    - [Changelog since v1.9.8](#changelog-since-v198)
+        - [Action Required](#action-required)
+        - [Other notable changes](#other-notable-changes-1)
 - [v1.9.8](#v198)
-  - [Downloads for v1.9.8](#downloads-for-v198)
-    - [Client Binaries](#client-binaries-2)
-    - [Server Binaries](#server-binaries-2)
-    - [Node Binaries](#node-binaries-2)
-  - [Changelog since v1.9.7](#changelog-since-v197)
-    - [Other notable changes](#other-notable-changes-2)
+    - [Downloads for v1.9.8](#downloads-for-v198)
+        - [Client Binaries](#client-binaries-2)
+        - [Server Binaries](#server-binaries-2)
+        - [Node Binaries](#node-binaries-2)
+    - [Changelog since v1.9.7](#changelog-since-v197)
+        - [Other notable changes](#other-notable-changes-2)
 - [v1.9.7](#v197)
-  - [Downloads for v1.9.7](#downloads-for-v197)
-    - [Client Binaries](#client-binaries-3)
-    - [Server Binaries](#server-binaries-3)
-    - [Node Binaries](#node-binaries-3)
-  - [Changelog since v1.9.6](#changelog-since-v196)
-    - [Action Required](#action-required-1)
-    - [Other notable changes](#other-notable-changes-3)
+    - [Downloads for v1.9.7](#downloads-for-v197)
+        - [Client Binaries](#client-binaries-3)
+        - [Server Binaries](#server-binaries-3)
+        - [Node Binaries](#node-binaries-3)
+    - [Changelog since v1.9.6](#changelog-since-v196)
+        - [Action Required](#action-required-1)
+        - [Other notable changes](#other-notable-changes-3)
 - [v1.9.6](#v196)
-  - [Downloads for v1.9.6](#downloads-for-v196)
-    - [Client Binaries](#client-binaries-4)
-    - [Server Binaries](#server-binaries-4)
-    - [Node Binaries](#node-binaries-4)
-  - [Changelog since v1.9.5](#changelog-since-v195)
-    - [Other notable changes](#other-notable-changes-4)
+    - [Downloads for v1.9.6](#downloads-for-v196)
+        - [Client Binaries](#client-binaries-4)
+        - [Server Binaries](#server-binaries-4)
+        - [Node Binaries](#node-binaries-4)
+    - [Changelog since v1.9.5](#changelog-since-v195)
+        - [Other notable changes](#other-notable-changes-4)
 - [v1.9.5](#v195)
-  - [Downloads for v1.9.5](#downloads-for-v195)
-    - [Client Binaries](#client-binaries-5)
-    - [Server Binaries](#server-binaries-5)
-    - [Node Binaries](#node-binaries-5)
-  - [Changelog since v1.9.4](#changelog-since-v194)
-    - [Other notable changes](#other-notable-changes-5)
+    - [Downloads for v1.9.5](#downloads-for-v195)
+        - [Client Binaries](#client-binaries-5)
+        - [Server Binaries](#server-binaries-5)
+        - [Node Binaries](#node-binaries-5)
+    - [Changelog since v1.9.4](#changelog-since-v194)
+        - [Other notable changes](#other-notable-changes-5)
 - [v1.9.4](#v194)
-  - [Downloads for v1.9.4](#downloads-for-v194)
-    - [Client Binaries](#client-binaries-6)
-    - [Server Binaries](#server-binaries-6)
-    - [Node Binaries](#node-binaries-6)
-  - [Changelog since v1.9.3](#changelog-since-v193)
-    - [Other notable changes](#other-notable-changes-6)
+    - [Downloads for v1.9.4](#downloads-for-v194)
+        - [Client Binaries](#client-binaries-6)
+        - [Server Binaries](#server-binaries-6)
+        - [Node Binaries](#node-binaries-6)
+    - [Changelog since v1.9.3](#changelog-since-v193)
+        - [Other notable changes](#other-notable-changes-6)
 - [v1.9.3](#v193)
-  - [Downloads for v1.9.3](#downloads-for-v193)
-    - [Client Binaries](#client-binaries-7)
-    - [Server Binaries](#server-binaries-7)
-    - [Node Binaries](#node-binaries-7)
-  - [Changelog since v1.9.2](#changelog-since-v192)
-    - [Action Required](#action-required-2)
-    - [Other notable changes](#other-notable-changes-7)
+    - [Downloads for v1.9.3](#downloads-for-v193)
+        - [Client Binaries](#client-binaries-7)
+        - [Server Binaries](#server-binaries-7)
+        - [Node Binaries](#node-binaries-7)
+    - [Changelog since v1.9.2](#changelog-since-v192)
+        - [Action Required](#action-required-2)
+        - [Other notable changes](#other-notable-changes-7)
 - [v1.9.2](#v192)
-  - [Downloads for v1.9.2](#downloads-for-v192)
-    - [Client Binaries](#client-binaries-8)
-    - [Server Binaries](#server-binaries-8)
-    - [Node Binaries](#node-binaries-8)
-  - [Changelog since v1.9.1](#changelog-since-v191)
-    - [Other notable changes](#other-notable-changes-8)
+    - [Downloads for v1.9.2](#downloads-for-v192)
+        - [Client Binaries](#client-binaries-8)
+        - [Server Binaries](#server-binaries-8)
+        - [Node Binaries](#node-binaries-8)
+    - [Changelog since v1.9.1](#changelog-since-v191)
+        - [Other notable changes](#other-notable-changes-8)
 - [v1.9.1](#v191)
-  - [Downloads for v1.9.1](#downloads-for-v191)
-    - [Client Binaries](#client-binaries-9)
-    - [Server Binaries](#server-binaries-9)
-    - [Node Binaries](#node-binaries-9)
-  - [Changelog since v1.9.0](#changelog-since-v190)
-    - [Other notable changes](#other-notable-changes-9)
+    - [Downloads for v1.9.1](#downloads-for-v191)
+        - [Client Binaries](#client-binaries-9)
+        - [Server Binaries](#server-binaries-9)
+        - [Node Binaries](#node-binaries-9)
+    - [Changelog since v1.9.0](#changelog-since-v190)
+        - [Other notable changes](#other-notable-changes-9)
 - [v1.9.0](#v190)
-  - [Downloads for v1.9.0](#downloads-for-v190)
-    - [Client Binaries](#client-binaries-10)
-    - [Server Binaries](#server-binaries-10)
-    - [Node Binaries](#node-binaries-10)
-  - [1.9 Release Notes](#19-release-notes)
-  - [WARNING: etcd backup strongly recommended](#warning-etcd-backup-strongly-recommended)
-  - [Introduction to 1.9.0](#introduction-to-190)
-  - [Major themes](#major-themes)
-    - [API Machinery](#api-machinery)
-    - [Apps](#apps)
-    - [Auth](#auth)
-    - [AWS](#aws)
-    - [Azure](#azure)
-    - [Cluster Lifecycle](#cluster-lifecycle)
-    - [Instrumentation](#instrumentation)
-    - [Network](#network)
-    - [Node](#node)
-    - [OpenStack](#openstack)
-    - [Storage](#storage)
-    - [Windows](#windows)
-  - [Before Upgrading](#before-upgrading)
-    - [**API Machinery**](#api-machinery-1)
-    - [**Auth**](#auth-1)
-    - [**CLI**](#cli)
-    - [**Cluster Lifecycle**](#cluster-lifecycle-1)
-    - [**Multicluster**](#multicluster)
-    - [**Node**](#node-1)
-    - [**Network**](#network-1)
-    - [**Scheduling**](#scheduling)
-    - [**Storage**](#storage-1)
-    - [**OpenStack**](#openstack-1)
-  - [Known Issues](#known-issues)
-  - [Deprecations](#deprecations)
-    - [**API Machinery**](#api-machinery-2)
-    - [**Auth**](#auth-2)
-    - [**Cluster Lifecycle**](#cluster-lifecycle-2)
-    - [**Network**](#network-2)
-    - [**Storage**](#storage-2)
-    - [**Scheduling**](#scheduling-1)
-    - [**Node**](#node-2)
-  - [Notable Changes](#notable-changes)
-    - [**Workloads API (apps/v1)**](#workloads-api-appsv1)
-    - [**API Machinery**](#api-machinery-3)
-      - [**Admission Control**](#admission-control)
-      - [**API & API server**](#api-&-api-server)
-      - [**Audit**](#audit)
-      - [**Custom Resources**](#custom-resources)
-      - [**Other**](#other)
-    - [**Apps**](#apps-1)
-    - [**Auth**](#auth-3)
-      - [**Audit**](#audit-1)
-      - [**RBAC**](#rbac)
-      - [**Other**](#other-1)
-      - [**GCE**](#gce)
-    - [**Autoscaling**](#autoscaling)
-    - [**AWS**](#aws-1)
-    - [**Azure**](#azure-1)
-    - [**CLI**](#cli-1)
-      - [**Kubectl**](#kubectl)
-    - [**Cluster Lifecycle**](#cluster-lifecycle-3)
-      - [**API Server**](#api-server)
-      - [**Cloud Provider Integration**](#cloud-provider-integration)
-      - [**Kubeadm**](#kubeadm)
-      - [**Juju**](#juju)
-      - [**Other**](#other-2)
-      - [**GCP**](#gcp)
-    - [**Instrumentation**](#instrumentation-1)
-      - [**Audit**](#audit-2)
-      - [**Other**](#other-3)
-    - [**Multicluster**](#multicluster-1)
-      - [**Federation**](#federation)
-    - [**Network**](#network-3)
-      - [**IPv6**](#ipv6)
-      - [**IPVS**](#ipvs)
-      - [**Kube-Proxy**](#kube-proxy)
-      - [**CoreDNS**](#coredns)
-      - [**Other**](#other-4)
-    - [**Node**](#node-3)
-      - [**Pod API**](#pod-api)
-      - [**Hardware Accelerators**](#hardware-accelerators)
-      - [**Container Runtime**](#container-runtime)
-      - [**Kubelet**](#kubelet)
-        - [**Other**](#other-5)
-    - [**OpenStack**](#openstack-2)
-    - [**Scheduling**](#scheduling-2)
-      - [**Hardware Accelerators**](#hardware-accelerators-1)
-      - [**Other**](#other-6)
-    - [**Storage**](#storage-3)
-  - [External Dependencies](#external-dependencies)
+    - [Downloads for v1.9.0](#downloads-for-v190)
+        - [Client Binaries](#client-binaries-10)
+        - [Server Binaries](#server-binaries-10)
+        - [Node Binaries](#node-binaries-10)
+    - [1.9 Release Notes](#19-release-notes)
+    - [WARNING: etcd backup strongly recommended](#warning-etcd-backup-strongly-recommended)
+    - [Introduction to 1.9.0](#introduction-to-190)
+    - [Major themes](#major-themes)
+        - [API Machinery](#api-machinery)
+        - [Apps](#apps)
+        - [Auth](#auth)
+        - [AWS](#aws)
+        - [Azure](#azure)
+        - [Cluster Lifecycle](#cluster-lifecycle)
+        - [Instrumentation](#instrumentation)
+        - [Network](#network)
+        - [Node](#node)
+        - [OpenStack](#openstack)
+        - [Storage](#storage)
+        - [Windows](#windows)
+    - [Before Upgrading](#before-upgrading)
+        - [**API Machinery**](#api-machinery)
+        - [**Auth**](#auth)
+        - [**CLI**](#cli)
+        - [**Cluster Lifecycle**](#cluster-lifecycle)
+        - [**Multicluster**](#multicluster)
+        - [**Node**](#node)
+        - [**Network**](#network)
+        - [**Scheduling**](#scheduling)
+        - [**Storage**](#storage)
+        - [**OpenStack**](#openstack)
+    - [Known Issues](#known-issues)
+    - [Deprecations](#deprecations)
+        - [**API Machinery**](#api-machinery-1)
+        - [**Auth**](#auth-1)
+        - [**Cluster Lifecycle**](#cluster-lifecycle-1)
+        - [**Network**](#network-1)
+        - [**Storage**](#storage-1)
+        - [**Scheduling**](#scheduling-1)
+        - [**Node**](#node-1)
+    - [Notable Changes](#notable-changes)
+        - [**Workloads API (apps/v1)**](#workloads-api-appsv1)
+        - [**API Machinery**](#api-machinery-2)
+            - [**Admission Control**](#admission-control)
+            - [**API & API server**](#api--api-server)
+            - [**Audit**](#audit)
+            - [**Custom Resources**](#custom-resources)
+            - [**Other**](#other)
+        - [**Apps**](#apps)
+        - [**Auth**](#auth-2)
+            - [**Audit**](#audit-1)
+            - [**RBAC**](#rbac)
+            - [**Other**](#other-1)
+            - [**GCE**](#gce)
+        - [**Autoscaling**](#autoscaling)
+        - [**AWS**](#aws)
+        - [**Azure**](#azure)
+        - [**CLI**](#cli-1)
+            - [**Kubectl**](#kubectl)
+        - [**Cluster Lifecycle**](#cluster-lifecycle-2)
+            - [**API Server**](#api-server)
+            - [**Cloud Provider Integration**](#cloud-provider-integration)
+            - [**Kubeadm**](#kubeadm)
+            - [**Juju**](#juju)
+            - [**Other**](#other-2)
+            - [**GCP**](#gcp)
+        - [**Instrumentation**](#instrumentation)
+            - [**Audit**](#audit-2)
+            - [**Other**](#other-3)
+        - [**Multicluster**](#multicluster-1)
+            - [**Federation**](#federation)
+        - [**Network**](#network-2)
+            - [**IPv6**](#ipv6)
+            - [**IPVS**](#ipvs)
+            - [**Kube-Proxy**](#kube-proxy)
+            - [**CoreDNS**](#coredns)
+            - [**Other**](#other-4)
+        - [**Node**](#node-2)
+            - [**Pod API**](#pod-api)
+            - [**Hardware Accelerators**](#hardware-accelerators)
+            - [**Container Runtime**](#container-runtime)
+            - [**Kubelet**](#kubelet)
+                - [**Other**](#other-5)
+        - [**OpenStack**](#openstack-1)
+        - [**Scheduling**](#scheduling-2)
+            - [**Hardware Accelerators**](#hardware-accelerators-1)
+            - [**Other**](#other-6)
+        - [**Storage**](#storage-2)
+    - [External Dependencies](#external-dependencies)
 - [v1.9.0-beta.2](#v190-beta2)
-  - [Downloads for v1.9.0-beta.2](#downloads-for-v190-beta2)
-    - [Client Binaries](#client-binaries-11)
-    - [Server Binaries](#server-binaries-11)
-    - [Node Binaries](#node-binaries-11)
-  - [Changelog since v1.9.0-beta.1](#changelog-since-v190-beta1)
-    - [Other notable changes](#other-notable-changes-10)
+    - [Downloads for v1.9.0-beta.2](#downloads-for-v190-beta2)
+        - [Client Binaries](#client-binaries-11)
+        - [Server Binaries](#server-binaries-11)
+        - [Node Binaries](#node-binaries-11)
+    - [Changelog since v1.9.0-beta.1](#changelog-since-v190-beta1)
+        - [Other notable changes](#other-notable-changes-10)
 - [v1.9.0-beta.1](#v190-beta1)
-  - [Downloads for v1.9.0-beta.1](#downloads-for-v190-beta1)
-    - [Client Binaries](#client-binaries-12)
-    - [Server Binaries](#server-binaries-12)
-    - [Node Binaries](#node-binaries-12)
-  - [Changelog since v1.9.0-alpha.3](#changelog-since-v190-alpha3)
-    - [Action Required](#action-required-3)
-    - [Other notable changes](#other-notable-changes-11)
+    - [Downloads for v1.9.0-beta.1](#downloads-for-v190-beta1)
+        - [Client Binaries](#client-binaries-12)
+        - [Server Binaries](#server-binaries-12)
+        - [Node Binaries](#node-binaries-12)
+    - [Changelog since v1.9.0-alpha.3](#changelog-since-v190-alpha3)
+        - [Action Required](#action-required-3)
+        - [Other notable changes](#other-notable-changes-11)
 - [v1.9.0-alpha.3](#v190-alpha3)
-  - [Downloads for v1.9.0-alpha.3](#downloads-for-v190-alpha3)
-    - [Client Binaries](#client-binaries-13)
-    - [Server Binaries](#server-binaries-13)
-    - [Node Binaries](#node-binaries-13)
-  - [Changelog since v1.9.0-alpha.2](#changelog-since-v190-alpha2)
-    - [Action Required](#action-required-4)
-    - [Other notable changes](#other-notable-changes-12)
+    - [Downloads for v1.9.0-alpha.3](#downloads-for-v190-alpha3)
+        - [Client Binaries](#client-binaries-13)
+        - [Server Binaries](#server-binaries-13)
+        - [Node Binaries](#node-binaries-13)
+    - [Changelog since v1.9.0-alpha.2](#changelog-since-v190-alpha2)
+        - [Action Required](#action-required-4)
+        - [Other notable changes](#other-notable-changes-12)
 - [v1.9.0-alpha.2](#v190-alpha2)
-  - [Downloads for v1.9.0-alpha.2](#downloads-for-v190-alpha2)
-    - [Client Binaries](#client-binaries-14)
-    - [Server Binaries](#server-binaries-14)
-    - [Node Binaries](#node-binaries-14)
-  - [Changelog since v1.8.0](#changelog-since-v180)
-    - [Action Required](#action-required-5)
-    - [Other notable changes](#other-notable-changes-13)
+    - [Downloads for v1.9.0-alpha.2](#downloads-for-v190-alpha2)
+        - [Client Binaries](#client-binaries-14)
+        - [Server Binaries](#server-binaries-14)
+        - [Node Binaries](#node-binaries-14)
+    - [Changelog since v1.8.0](#changelog-since-v180)
+        - [Action Required](#action-required-5)
+        - [Other notable changes](#other-notable-changes-13)
 - [v1.9.0-alpha.1](#v190-alpha1)
-  - [Downloads for v1.9.0-alpha.1](#downloads-for-v190-alpha1)
-    - [Client Binaries](#client-binaries-15)
-    - [Server Binaries](#server-binaries-15)
-    - [Node Binaries](#node-binaries-15)
-  - [Changelog since v1.8.0-alpha.3](#changelog-since-v180-alpha3)
-    - [Action Required](#action-required-6)
-    - [Other notable changes](#other-notable-changes-14)
+    - [Downloads for v1.9.0-alpha.1](#downloads-for-v190-alpha1)
+        - [Client Binaries](#client-binaries-15)
+        - [Server Binaries](#server-binaries-15)
+        - [Node Binaries](#node-binaries-15)
+    - [Changelog since v1.8.0-alpha.3](#changelog-since-v180-alpha3)
+        - [Action Required](#action-required-6)
+        - [Other notable changes](#other-notable-changes-14)
 <!-- END MUNGE: GENERATED_TOC -->
 
 <!-- NEW RELEASE NOTES ENTRY -->
@@ -213,46 +213,46 @@
 ## Downloads for v1.9.10
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes.tar.gz) | `77dbeb124f399e7e7ae0d7e3111316e6325b66383fc0ce7c2505758616fb6cd8`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-src.tar.gz) | `ce2556081fa209deac0d32bdb95fb6cf6ef147b6e18f06cbb4dbbca0a97630a3`
+| filename                                                                 | sha256 hash                                                        |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes.tar.gz)         | `77dbeb124f399e7e7ae0d7e3111316e6325b66383fc0ce7c2505758616fb6cd8` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-src.tar.gz) | `ce2556081fa209deac0d32bdb95fb6cf6ef147b6e18f06cbb4dbbca0a97630a3` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-darwin-386.tar.gz) | `989994a73ba6009acc74e4e0c43f1ab5f353033df1012ee02568abac162c0ef6`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-darwin-amd64.tar.gz) | `e5ee33e2b85ee0968f625b931ebe6f87fc5d3f116af54b3457aee114e0fd3629`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-linux-386.tar.gz) | `a6c9bdb3e1b70f4c44461596124262464988f167da3acc00a5d50b853e725daa`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-linux-amd64.tar.gz) | `94da1929a9ef1129cf23b85b690effeca1e1029696ed4e174b1c47747e6e40e2`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-linux-arm.tar.gz) | `e89b0e48be3b54cb3f598350fd357cea0e5d143e208d15394a0b54d17bf9dba0`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-linux-arm64.tar.gz) | `79dd62511b2465797b1d50b4ff7894ac77fb7cd9a30437aa0c54db10dce2f3cc`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-linux-ppc64le.tar.gz) | `c30b014a0630672eb07272782203b99390b653c8ccde339fbef5f3c2031d6a2a`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-linux-s390x.tar.gz) | `e408569f43fc8c93cb49bd122d61d06204d526d1f4855ccb8ea5f1ce6423f120`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-windows-386.tar.gz) | `f92f23bada75b3128ec61294e8d342c5bf6e86bd4ac042a2d774ffbb119fd8be`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-windows-amd64.tar.gz) | `85a23fd2e5766067d266744b4672d7c5d2816e4750569f0ce1bdb85a2834c3f3`
+| filename                                                                                                   | sha256 hash                                                        |
+| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-darwin-386.tar.gz)       | `989994a73ba6009acc74e4e0c43f1ab5f353033df1012ee02568abac162c0ef6` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-darwin-amd64.tar.gz)   | `e5ee33e2b85ee0968f625b931ebe6f87fc5d3f116af54b3457aee114e0fd3629` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-linux-386.tar.gz)         | `a6c9bdb3e1b70f4c44461596124262464988f167da3acc00a5d50b853e725daa` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-linux-amd64.tar.gz)     | `94da1929a9ef1129cf23b85b690effeca1e1029696ed4e174b1c47747e6e40e2` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-linux-arm.tar.gz)         | `e89b0e48be3b54cb3f598350fd357cea0e5d143e208d15394a0b54d17bf9dba0` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-linux-arm64.tar.gz)     | `79dd62511b2465797b1d50b4ff7894ac77fb7cd9a30437aa0c54db10dce2f3cc` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-linux-ppc64le.tar.gz) | `c30b014a0630672eb07272782203b99390b653c8ccde339fbef5f3c2031d6a2a` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-linux-s390x.tar.gz)     | `e408569f43fc8c93cb49bd122d61d06204d526d1f4855ccb8ea5f1ce6423f120` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-windows-386.tar.gz)     | `f92f23bada75b3128ec61294e8d342c5bf6e86bd4ac042a2d774ffbb119fd8be` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-client-windows-amd64.tar.gz) | `85a23fd2e5766067d266744b4672d7c5d2816e4750569f0ce1bdb85a2834c3f3` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-server-linux-amd64.tar.gz) | `b3299f985084021984b1a5ed823348fa97d52a5b416dbf7b5b0c299988a8fdcf`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-server-linux-arm.tar.gz) | `9cacacdaae444b37413070920f38c192112144cacf1cb4cb17cdff3e0ed9b7ff`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-server-linux-arm64.tar.gz) | `c557bf0495bf68c83c02c78c59ba12524f22105f9fc6fc80849a78a4c6a695e1`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-server-linux-ppc64le.tar.gz) | `c50f172c4824c897218c736d6d17c5699045ff45f3536a6d6fc2b8c4b2d60053`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-server-linux-s390x.tar.gz) | `449289491af6e3aa47cf58472be3cd9f638dfe762a4d0525d7563352cfe8b7fc`
+| filename                                                                                                   | sha256 hash                                                        |
+| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-server-linux-amd64.tar.gz)     | `b3299f985084021984b1a5ed823348fa97d52a5b416dbf7b5b0c299988a8fdcf` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-server-linux-arm.tar.gz)         | `9cacacdaae444b37413070920f38c192112144cacf1cb4cb17cdff3e0ed9b7ff` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-server-linux-arm64.tar.gz)     | `c557bf0495bf68c83c02c78c59ba12524f22105f9fc6fc80849a78a4c6a695e1` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-server-linux-ppc64le.tar.gz) | `c50f172c4824c897218c736d6d17c5699045ff45f3536a6d6fc2b8c4b2d60053` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-server-linux-s390x.tar.gz)     | `449289491af6e3aa47cf58472be3cd9f638dfe762a4d0525d7563352cfe8b7fc` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-node-linux-amd64.tar.gz) | `8a64921a4ab5a858be6c7a90b195cec732cc2d67d37c6195e88210044401d05d`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-node-linux-arm.tar.gz) | `de68c2b616a601843eed932ea08ac186acdaa5e75488237227263c747ea009a8`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-node-linux-arm64.tar.gz) | `8b6d61316e99c17d51ffd966c26d2034960947968a5a6840e547a1966a087ad7`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-node-linux-ppc64le.tar.gz) | `471d3a21f9bd8e8a7f03f8d225c4a72d7305f888102556e0ba29e5ec86dc763e`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-node-linux-s390x.tar.gz) | `67b3d7e13e01c55c64762b70f63d14a3bc7910a4a0df296e9f18b4c5271fa19d`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-node-windows-amd64.tar.gz) | `d82e22e0ab2321961cc0daa7accd985e2288e0ab0598ee515bc477d64e91f2e5`
+| filename                                                                                               | sha256 hash                                                        |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-node-linux-amd64.tar.gz)     | `8a64921a4ab5a858be6c7a90b195cec732cc2d67d37c6195e88210044401d05d` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-node-linux-arm.tar.gz)         | `de68c2b616a601843eed932ea08ac186acdaa5e75488237227263c747ea009a8` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-node-linux-arm64.tar.gz)     | `8b6d61316e99c17d51ffd966c26d2034960947968a5a6840e547a1966a087ad7` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-node-linux-ppc64le.tar.gz) | `471d3a21f9bd8e8a7f03f8d225c4a72d7305f888102556e0ba29e5ec86dc763e` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-node-linux-s390x.tar.gz)     | `67b3d7e13e01c55c64762b70f63d14a3bc7910a4a0df296e9f18b4c5271fa19d` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.10/kubernetes-node-windows-amd64.tar.gz) | `d82e22e0ab2321961cc0daa7accd985e2288e0ab0598ee515bc477d64e91f2e5` |
 
 ## Changelog since v1.9.9
 
@@ -283,46 +283,46 @@ filename | sha256 hash
 ## Downloads for v1.9.9
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes.tar.gz) | `846b3f42bfe3e176ac44c4e79826a68648d982a1b6ebc2af15c1424f7b8f42f2`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-src.tar.gz) | `6978228a7b85a63ef126e3dfd9356d5516e59f2a4924022bc113590a167d93bb`
+| filename                                                                | sha256 hash                                                        |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes.tar.gz)         | `846b3f42bfe3e176ac44c4e79826a68648d982a1b6ebc2af15c1424f7b8f42f2` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-src.tar.gz) | `6978228a7b85a63ef126e3dfd9356d5516e59f2a4924022bc113590a167d93bb` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-darwin-386.tar.gz) | `af053dd90b11c875d41613d00733f53ec0c129afc9ff456c8b5e395cc9c65719`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-darwin-amd64.tar.gz) | `63a8add3288be2e1ac8f8a7e9bf14564ed19e2808e50d031a16befdd22e57f66`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-linux-386.tar.gz) | `e7ed4413060321ef6170a5d6fc872997d6f14441b3d2ca365e0a1b63a657bcc4`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-linux-amd64.tar.gz) | `3bc3b2d864a8fe8aaaa98be9fbeb59f3ad5a175ef3b6033ec7fd99283fcebfa1`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-linux-arm.tar.gz) | `9fbfe7ef1bc1e923f3eb6325a481f177ee20ca5fabad249b6b9013d9375ef880`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-linux-arm64.tar.gz) | `3e5e85dfae384163bcd90913d4cfe3184fd3ea6742ad61d00d1427f875ab6ee6`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-linux-ppc64le.tar.gz) | `9542b37a160fb5e9feb4eb10f2642cfaf98166aed86c6279f71c847e1d3855e4`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-linux-s390x.tar.gz) | `5d3fb0d74b8f234452243dfe6643a5fa9eee6b7805367d50e34311d91048e4d4`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-windows-386.tar.gz) | `facac737ab5cb3164c5668f4dcd5e82d308fb1006be87d00cfc1fd2c8da8b239`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-windows-amd64.tar.gz) | `656731e7b04e4e26d906221933f1d47ff8b00b8426c0ec62dfbae505303e142e`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-darwin-386.tar.gz)       | `af053dd90b11c875d41613d00733f53ec0c129afc9ff456c8b5e395cc9c65719` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-darwin-amd64.tar.gz)   | `63a8add3288be2e1ac8f8a7e9bf14564ed19e2808e50d031a16befdd22e57f66` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-linux-386.tar.gz)         | `e7ed4413060321ef6170a5d6fc872997d6f14441b3d2ca365e0a1b63a657bcc4` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-linux-amd64.tar.gz)     | `3bc3b2d864a8fe8aaaa98be9fbeb59f3ad5a175ef3b6033ec7fd99283fcebfa1` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-linux-arm.tar.gz)         | `9fbfe7ef1bc1e923f3eb6325a481f177ee20ca5fabad249b6b9013d9375ef880` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-linux-arm64.tar.gz)     | `3e5e85dfae384163bcd90913d4cfe3184fd3ea6742ad61d00d1427f875ab6ee6` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-linux-ppc64le.tar.gz) | `9542b37a160fb5e9feb4eb10f2642cfaf98166aed86c6279f71c847e1d3855e4` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-linux-s390x.tar.gz)     | `5d3fb0d74b8f234452243dfe6643a5fa9eee6b7805367d50e34311d91048e4d4` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-windows-386.tar.gz)     | `facac737ab5cb3164c5668f4dcd5e82d308fb1006be87d00cfc1fd2c8da8b239` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-client-windows-amd64.tar.gz) | `656731e7b04e4e26d906221933f1d47ff8b00b8426c0ec62dfbae505303e142e` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-server-linux-amd64.tar.gz) | `11167f79e8778da1fd5c3ecd547eec24744f34b708da52d6be2eed832b7e3a7a`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-server-linux-arm.tar.gz) | `0fed178dd970ab7c3f8d255128faa28c3e5ee5407337ec79df97ee13fb76b22e`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-server-linux-arm64.tar.gz) | `92a5e739a27be3cc45edc3560d45ae524af718043a1b5d9694918718f815d222`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-server-linux-ppc64le.tar.gz) | `9e24340fff59ea466d1215e68ffe2f752d0dadaa0dbf1820f58f3a0d7da86e76`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-server-linux-s390x.tar.gz) | `fe4cdfb14dd639e79c83a563b18433051c2fcc6d6695f5d3e1e8479a757b9172`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-server-linux-amd64.tar.gz)     | `11167f79e8778da1fd5c3ecd547eec24744f34b708da52d6be2eed832b7e3a7a` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-server-linux-arm.tar.gz)         | `0fed178dd970ab7c3f8d255128faa28c3e5ee5407337ec79df97ee13fb76b22e` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-server-linux-arm64.tar.gz)     | `92a5e739a27be3cc45edc3560d45ae524af718043a1b5d9694918718f815d222` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-server-linux-ppc64le.tar.gz) | `9e24340fff59ea466d1215e68ffe2f752d0dadaa0dbf1820f58f3a0d7da86e76` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-server-linux-s390x.tar.gz)     | `fe4cdfb14dd639e79c83a563b18433051c2fcc6d6695f5d3e1e8479a757b9172` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-node-linux-amd64.tar.gz) | `b98abba759a0035af1cf3c8e89d929748bb638e0e89438790f085b35f1df5a93`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-node-linux-arm.tar.gz) | `bbe91a19a65f1fa17ab7c58e770bc8b079037c408d0a63cbe8b2442f4a1c72e1`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-node-linux-arm64.tar.gz) | `94faf97de649457d8e02f631a4118b868e24199ad01b88b3c2d268e91054205e`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-node-linux-ppc64le.tar.gz) | `973dc2a30c8d1a989b23f1ff0153b95baba2667f890a0baefb39eaf7c952a40c`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-node-linux-s390x.tar.gz) | `1107320849132f7e840a14cf5ec9d909005562b54578fbb69eba4f96d1de6960`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-node-windows-amd64.tar.gz) | `618aa00d34e460ffdb963eabae58013a03ec72981fdabf34df7538fcb66a683c`
+| filename                                                                                              | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-node-linux-amd64.tar.gz)     | `b98abba759a0035af1cf3c8e89d929748bb638e0e89438790f085b35f1df5a93` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-node-linux-arm.tar.gz)         | `bbe91a19a65f1fa17ab7c58e770bc8b079037c408d0a63cbe8b2442f4a1c72e1` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-node-linux-arm64.tar.gz)     | `94faf97de649457d8e02f631a4118b868e24199ad01b88b3c2d268e91054205e` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-node-linux-ppc64le.tar.gz) | `973dc2a30c8d1a989b23f1ff0153b95baba2667f890a0baefb39eaf7c952a40c` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-node-linux-s390x.tar.gz)     | `1107320849132f7e840a14cf5ec9d909005562b54578fbb69eba4f96d1de6960` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.9/kubernetes-node-windows-amd64.tar.gz) | `618aa00d34e460ffdb963eabae58013a03ec72981fdabf34df7538fcb66a683c` |
 
 ## Changelog since v1.9.8
 
@@ -360,46 +360,46 @@ filename | sha256 hash
 ## Downloads for v1.9.8
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes.tar.gz) | `de31bcccfe99b88f54ff24147be0b6c4fbc4fe46b10f81d0f05294317070e221`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-src.tar.gz) | `d349086847a22ee89dc1fba335741c670650c0b61c1648612f4a40bc0b90255e`
+| filename                                                                | sha256 hash                                                        |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes.tar.gz)         | `de31bcccfe99b88f54ff24147be0b6c4fbc4fe46b10f81d0f05294317070e221` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-src.tar.gz) | `d349086847a22ee89dc1fba335741c670650c0b61c1648612f4a40bc0b90255e` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-darwin-386.tar.gz) | `de772fcc08bf14d21c96f55aad8812bac36b7ef61957f7dab5ba3ec0321b691f`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-darwin-amd64.tar.gz) | `6aff6127b21e14009e3aa181fc1a5932868060a32ba291170cd10a54acc2e6f4`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-linux-386.tar.gz) | `1d5429470fd7c8c451075fa1cdbcbf430510a80131ad52b45f51e5e941ffed05`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-linux-amd64.tar.gz) | `70b66cc9cd17a184a38d4a8daa5e3410f10390eb7c8745418c004cda457e609c`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-linux-arm.tar.gz) | `648cfde6590100621c1eaa2e98d072c03ba19239fbc9809d8f6b859f81d61fc1`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-linux-arm64.tar.gz) | `0966e4070d2cad96610d2a533501d1ca116016fe6a76b865d052ea72dec60a19`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-linux-ppc64le.tar.gz) | `12d4a5e572d7c8dcccd569c93b0d7eaffd8bbed0f44d78e08c062d90d3dd1eec`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-linux-s390x.tar.gz) | `53f619ad8c74cbcc0a3000d007ac98f544f7724a566c0560bd2b3d1ab123b223`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-windows-386.tar.gz) | `04bcaaecd9e72b5dcb0019314baeaa1b3915401ae82a73e616b8579fcfb8c5e7`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-windows-amd64.tar.gz) | `ec5d0b08daaaa101597a8bc8ff51727556ae16e26c1d71fe96dd07ba4ad63cbf`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-darwin-386.tar.gz)       | `de772fcc08bf14d21c96f55aad8812bac36b7ef61957f7dab5ba3ec0321b691f` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-darwin-amd64.tar.gz)   | `6aff6127b21e14009e3aa181fc1a5932868060a32ba291170cd10a54acc2e6f4` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-linux-386.tar.gz)         | `1d5429470fd7c8c451075fa1cdbcbf430510a80131ad52b45f51e5e941ffed05` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-linux-amd64.tar.gz)     | `70b66cc9cd17a184a38d4a8daa5e3410f10390eb7c8745418c004cda457e609c` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-linux-arm.tar.gz)         | `648cfde6590100621c1eaa2e98d072c03ba19239fbc9809d8f6b859f81d61fc1` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-linux-arm64.tar.gz)     | `0966e4070d2cad96610d2a533501d1ca116016fe6a76b865d052ea72dec60a19` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-linux-ppc64le.tar.gz) | `12d4a5e572d7c8dcccd569c93b0d7eaffd8bbed0f44d78e08c062d90d3dd1eec` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-linux-s390x.tar.gz)     | `53f619ad8c74cbcc0a3000d007ac98f544f7724a566c0560bd2b3d1ab123b223` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-windows-386.tar.gz)     | `04bcaaecd9e72b5dcb0019314baeaa1b3915401ae82a73e616b8579fcfb8c5e7` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-client-windows-amd64.tar.gz) | `ec5d0b08daaaa101597a8bc8ff51727556ae16e26c1d71fe96dd07ba4ad63cbf` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-server-linux-amd64.tar.gz) | `13a410ad1de823a807474c29475640cb3160f78c865f74c339f9690107d6f819`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-server-linux-arm.tar.gz) | `42f625c0c6bf370a6213e498c044d8ba62d757e365cd1ec292e4f7532c2360de`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-server-linux-arm64.tar.gz) | `464fe315c21b29417b74f51c5d923787bc046d652089a6e11f3a1fd72ae66f74`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-server-linux-ppc64le.tar.gz) | `e62a7f5e2b5f9502da07b03d2c4b6670d31d320b7811e9dbf0cf7470cc2377c1`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-server-linux-s390x.tar.gz) | `11323b78190600000c92167cbd9ac000f9561545876425a9cf3ba7eab69ab132`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-server-linux-amd64.tar.gz)     | `13a410ad1de823a807474c29475640cb3160f78c865f74c339f9690107d6f819` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-server-linux-arm.tar.gz)         | `42f625c0c6bf370a6213e498c044d8ba62d757e365cd1ec292e4f7532c2360de` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-server-linux-arm64.tar.gz)     | `464fe315c21b29417b74f51c5d923787bc046d652089a6e11f3a1fd72ae66f74` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-server-linux-ppc64le.tar.gz) | `e62a7f5e2b5f9502da07b03d2c4b6670d31d320b7811e9dbf0cf7470cc2377c1` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-server-linux-s390x.tar.gz)     | `11323b78190600000c92167cbd9ac000f9561545876425a9cf3ba7eab69ab132` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-node-linux-amd64.tar.gz) | `34c699bab128eb5094a3c7ca21e728d9ab7b08fe98ee9156671c7a3228344329`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-node-linux-arm.tar.gz) | `f8bb865a85d2cf2bfa0188cf250471ff6997b2b1e8bd750db39b635355568445`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-node-linux-arm64.tar.gz) | `7be2b47820b82153a7cf39abc146a59595e7156209f29a86fa6a4878ea4840c1`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-node-linux-ppc64le.tar.gz) | `1ee6402840c60b4519b8c785057e35880f78c2449e17695a82174f12144dd4e0`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-node-linux-s390x.tar.gz) | `a023e6357f05ed1314a107c6848b48b3b2cb5b562dd557b64720481288b588d8`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-node-windows-amd64.tar.gz) | `a75684e1da14453517ed7deab78453579e148341440a6b4afa5a17c59a72a459`
+| filename                                                                                              | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-node-linux-amd64.tar.gz)     | `34c699bab128eb5094a3c7ca21e728d9ab7b08fe98ee9156671c7a3228344329` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-node-linux-arm.tar.gz)         | `f8bb865a85d2cf2bfa0188cf250471ff6997b2b1e8bd750db39b635355568445` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-node-linux-arm64.tar.gz)     | `7be2b47820b82153a7cf39abc146a59595e7156209f29a86fa6a4878ea4840c1` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-node-linux-ppc64le.tar.gz) | `1ee6402840c60b4519b8c785057e35880f78c2449e17695a82174f12144dd4e0` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-node-linux-s390x.tar.gz)     | `a023e6357f05ed1314a107c6848b48b3b2cb5b562dd557b64720481288b588d8` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.8/kubernetes-node-windows-amd64.tar.gz) | `a75684e1da14453517ed7deab78453579e148341440a6b4afa5a17c59a72a459` |
 
 ## Changelog since v1.9.7
 
@@ -428,46 +428,46 @@ filename | sha256 hash
 ## Downloads for v1.9.7
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes.tar.gz) | `617b534fca9c5b2ced9c8eb3298a41fc55413aa876dcfec09bd15488e488db92`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-src.tar.gz) | `1f10552d4282afe71ebbf046b8c5d0392453f0193fc511c59ee67e3c8f8ab0dd`
+| filename                                                                | sha256 hash                                                        |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes.tar.gz)         | `617b534fca9c5b2ced9c8eb3298a41fc55413aa876dcfec09bd15488e488db92` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-src.tar.gz) | `1f10552d4282afe71ebbf046b8c5d0392453f0193fc511c59ee67e3c8f8ab0dd` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-darwin-386.tar.gz) | `7c58efd0c8cdcbdedbf461d63d4b5ba9b131f6c7e659f2da1e2b7127e5607f3d`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-darwin-amd64.tar.gz) | `17e7ebab62026fbff5453a47fe6d0ac540de72c0596f769dc4d337a0aa7341d6`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-linux-386.tar.gz) | `b159500ff36fbc4230d541d0c8e596cc37abfb20ec78cc7b7923e9ef3b184b4e`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-linux-amd64.tar.gz) | `55ddbf3aa9f0aff90305845c8c9314520bcc69bbac2d9dedaf10a2356f9fc178`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-linux-arm.tar.gz) | `c829f10dbc19b18bd59b4dd88d9e60e565c50138b017a0a41addc8178e81074a`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-linux-arm64.tar.gz) | `d3a58780a74a235f8c8eb13a88fc8d62c810ff815f78beb8870f4c302c82d0ac`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-linux-ppc64le.tar.gz) | `11803507d1d7b404e6fe63a04025a73aa0b1456e2d81d52f4824faa1a2311853`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-linux-s390x.tar.gz) | `f86120b75f324e92ea72a1d341b4b2c65df3a66eb5b035ce347e7bdfefb570b8`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-windows-386.tar.gz) | `523b117ac9c0321cfb5bc21fbfc68f83b00d6ec10365ea3eb1bf7dd7b1385bc9`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-windows-amd64.tar.gz) | `9390d5066ff21f8b542676cb5d8f0dacae4d1c722d374bdeb09be7fcc11d020e`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-darwin-386.tar.gz)       | `7c58efd0c8cdcbdedbf461d63d4b5ba9b131f6c7e659f2da1e2b7127e5607f3d` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-darwin-amd64.tar.gz)   | `17e7ebab62026fbff5453a47fe6d0ac540de72c0596f769dc4d337a0aa7341d6` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-linux-386.tar.gz)         | `b159500ff36fbc4230d541d0c8e596cc37abfb20ec78cc7b7923e9ef3b184b4e` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-linux-amd64.tar.gz)     | `55ddbf3aa9f0aff90305845c8c9314520bcc69bbac2d9dedaf10a2356f9fc178` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-linux-arm.tar.gz)         | `c829f10dbc19b18bd59b4dd88d9e60e565c50138b017a0a41addc8178e81074a` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-linux-arm64.tar.gz)     | `d3a58780a74a235f8c8eb13a88fc8d62c810ff815f78beb8870f4c302c82d0ac` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-linux-ppc64le.tar.gz) | `11803507d1d7b404e6fe63a04025a73aa0b1456e2d81d52f4824faa1a2311853` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-linux-s390x.tar.gz)     | `f86120b75f324e92ea72a1d341b4b2c65df3a66eb5b035ce347e7bdfefb570b8` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-windows-386.tar.gz)     | `523b117ac9c0321cfb5bc21fbfc68f83b00d6ec10365ea3eb1bf7dd7b1385bc9` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-client-windows-amd64.tar.gz) | `9390d5066ff21f8b542676cb5d8f0dacae4d1c722d374bdeb09be7fcc11d020e` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-server-linux-amd64.tar.gz) | `8ed839b8b3851f54c00c8fe283ad505cf1d2878d4b2797dcfce9adedf34fab02`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-server-linux-arm.tar.gz) | `0989b9fcb666b18a4c49998f9316fcc79093ee047a6be21d821168d80d341129`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-server-linux-arm64.tar.gz) | `9e64195da3ffe0745109871b2c05d6788d1e1cff2c8956169eae55057952ea88`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-server-linux-ppc64le.tar.gz) | `6809f1d29ea9dfa694efbda37b4ffbe6238cf9cd323c9ab5cfe69c9e18a7e43b`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-server-linux-s390x.tar.gz) | `e6cfdcdfeb3f73421df2c011337bd8b508c991d085e3cb420f87ba1d2aa877e0`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-server-linux-amd64.tar.gz)     | `8ed839b8b3851f54c00c8fe283ad505cf1d2878d4b2797dcfce9adedf34fab02` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-server-linux-arm.tar.gz)         | `0989b9fcb666b18a4c49998f9316fcc79093ee047a6be21d821168d80d341129` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-server-linux-arm64.tar.gz)     | `9e64195da3ffe0745109871b2c05d6788d1e1cff2c8956169eae55057952ea88` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-server-linux-ppc64le.tar.gz) | `6809f1d29ea9dfa694efbda37b4ffbe6238cf9cd323c9ab5cfe69c9e18a7e43b` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-server-linux-s390x.tar.gz)     | `e6cfdcdfeb3f73421df2c011337bd8b508c991d085e3cb420f87ba1d2aa877e0` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-node-linux-amd64.tar.gz) | `c890c3ceab080829b101e7b33e5d841fc29b6d060b5811859fa39a8d4a63ec36`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-node-linux-arm.tar.gz) | `1dbaabdba6b01410dba5e370c262004ad8b2a0907cb1b7bab260fef84a455b04`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-node-linux-arm64.tar.gz) | `c230fed814125176b9d215b51ccc58541937c09261adb7db702e60fb7ee78450`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-node-linux-ppc64le.tar.gz) | `ddd153bcefbad5286cedfc5768134fbb0048af9f1e70cd90145ba72063291482`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-node-linux-s390x.tar.gz) | `25473510b470ec8e4f01835a4f3db58b9278687e6eb5aa440e948fbf13666fa4`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-node-windows-amd64.tar.gz) | `5968c2b75244353ac6736420abc2de3d8c1c458efb4122319302a0b889bb2a8f`
+| filename                                                                                              | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-node-linux-amd64.tar.gz)     | `c890c3ceab080829b101e7b33e5d841fc29b6d060b5811859fa39a8d4a63ec36` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-node-linux-arm.tar.gz)         | `1dbaabdba6b01410dba5e370c262004ad8b2a0907cb1b7bab260fef84a455b04` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-node-linux-arm64.tar.gz)     | `c230fed814125176b9d215b51ccc58541937c09261adb7db702e60fb7ee78450` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-node-linux-ppc64le.tar.gz) | `ddd153bcefbad5286cedfc5768134fbb0048af9f1e70cd90145ba72063291482` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-node-linux-s390x.tar.gz)     | `25473510b470ec8e4f01835a4f3db58b9278687e6eb5aa440e948fbf13666fa4` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.7/kubernetes-node-windows-amd64.tar.gz) | `5968c2b75244353ac6736420abc2de3d8c1c458efb4122319302a0b889bb2a8f` |
 
 ## Changelog since v1.9.6
 
@@ -522,46 +522,46 @@ filename | sha256 hash
 ## Downloads for v1.9.6
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes.tar.gz) | `254f14a1c0a160c92c974ce471d86f549ca5ba25e22c42b0008a9d07291f931f`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-src.tar.gz) | `67b2cebdb264da1c2b2ef5f41d6252346d58d944a75f51ba890fe3077b4975ee`
+| filename                                                                | sha256 hash                                                        |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes.tar.gz)         | `254f14a1c0a160c92c974ce471d86f549ca5ba25e22c42b0008a9d07291f931f` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-src.tar.gz) | `67b2cebdb264da1c2b2ef5f41d6252346d58d944a75f51ba890fe3077b4975ee` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-darwin-386.tar.gz) | `d0b53a07fc41fa7f460ee7ae6cf227d136729136a4b1b35b20f71e9388496246`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-darwin-amd64.tar.gz) | `5f5ae3da3fc9e1bf5466accacf82e60d9708d638b9f8d8346f770e8bbeefa38f`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-linux-386.tar.gz) | `9f421d9ec59ad5fd75fc1184d48c9b473646a91e3182ede8c2852a03103f2459`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-linux-amd64.tar.gz) | `2b1ab65171bcd43a099d4f7d05d7804c737272270e83f633e1c14ceed9a99133`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-linux-arm.tar.gz) | `85b9a0908a9bb82009f89069bce45c30aa61575651151886688f7333291fd09a`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-linux-arm64.tar.gz) | `574669991c5fc4771fc2c61eb46b8ecc857b4ccb9a639ae2443442518d571234`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-linux-ppc64le.tar.gz) | `f286c3417c31ab2f89c615786def5ce3040216ed1530a3e21de7844e551185f0`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-linux-s390x.tar.gz) | `29789d1f5e2d0b9816d21e219d00d5f4619a20504378152ca964b6ee52aa7ae9`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-windows-386.tar.gz) | `543bfb8e1c53c76a7939083d4bc3aaa4aec4e62edcbfea291b231bc864f387e9`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-windows-amd64.tar.gz) | `bd534611db31a0c5a3c981212308dfa465a09cec7320aaa296761e4633c6d693`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-darwin-386.tar.gz)       | `d0b53a07fc41fa7f460ee7ae6cf227d136729136a4b1b35b20f71e9388496246` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-darwin-amd64.tar.gz)   | `5f5ae3da3fc9e1bf5466accacf82e60d9708d638b9f8d8346f770e8bbeefa38f` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-linux-386.tar.gz)         | `9f421d9ec59ad5fd75fc1184d48c9b473646a91e3182ede8c2852a03103f2459` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-linux-amd64.tar.gz)     | `2b1ab65171bcd43a099d4f7d05d7804c737272270e83f633e1c14ceed9a99133` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-linux-arm.tar.gz)         | `85b9a0908a9bb82009f89069bce45c30aa61575651151886688f7333291fd09a` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-linux-arm64.tar.gz)     | `574669991c5fc4771fc2c61eb46b8ecc857b4ccb9a639ae2443442518d571234` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-linux-ppc64le.tar.gz) | `f286c3417c31ab2f89c615786def5ce3040216ed1530a3e21de7844e551185f0` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-linux-s390x.tar.gz)     | `29789d1f5e2d0b9816d21e219d00d5f4619a20504378152ca964b6ee52aa7ae9` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-windows-386.tar.gz)     | `543bfb8e1c53c76a7939083d4bc3aaa4aec4e62edcbfea291b231bc864f387e9` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-client-windows-amd64.tar.gz) | `bd534611db31a0c5a3c981212308dfa465a09cec7320aaa296761e4633c6d693` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-server-linux-amd64.tar.gz) | `2a65bbbd67084bf89021f9139f60412d32153bed52e41eb625a616bc504fc6a9`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-server-linux-arm.tar.gz) | `ae130e2bb8591e100a977652ea660d85baf4fcad2cd28719389e97ec686a869d`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-server-linux-arm64.tar.gz) | `0914665076bf33e4d9685edfeccb6c08a906f99b0408c443113994048c2017e6`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-server-linux-ppc64le.tar.gz) | `3eb5424b705ca286438a4d9dba15b9837f061cb24f9f86b337c95f0e8986cfbb`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-server-linux-s390x.tar.gz) | `33b92f8bf1bdc286921ccb270624ce9ca4462cce089523de7af686788442e3db`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-server-linux-amd64.tar.gz)     | `2a65bbbd67084bf89021f9139f60412d32153bed52e41eb625a616bc504fc6a9` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-server-linux-arm.tar.gz)         | `ae130e2bb8591e100a977652ea660d85baf4fcad2cd28719389e97ec686a869d` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-server-linux-arm64.tar.gz)     | `0914665076bf33e4d9685edfeccb6c08a906f99b0408c443113994048c2017e6` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-server-linux-ppc64le.tar.gz) | `3eb5424b705ca286438a4d9dba15b9837f061cb24f9f86b337c95f0e8986cfbb` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-server-linux-s390x.tar.gz)     | `33b92f8bf1bdc286921ccb270624ce9ca4462cce089523de7af686788442e3db` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-node-linux-amd64.tar.gz) | `59fd08906a4bd2e1f5f2c8bd4098928a23add4a6e3ff5006cd28a0099cbc5dcb`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-node-linux-arm.tar.gz) | `4465e4452dc1270f0ac9808d681d58d159f25b73a69a85f1206890378fd76925`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-node-linux-arm64.tar.gz) | `ad80ff26a583d8cfbd576151c9d3b71a6e345dfadb349f0529667aaaac39d562`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-node-linux-ppc64le.tar.gz) | `21c4685a50758737c4466cbc6f221dee534f50ecf542d924558a00a08fc41db3`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-node-linux-s390x.tar.gz) | `d9ccb9bc1acc55a168a48c9ab29ecba335aaabeff484e74823747174019dbc65`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-node-windows-amd64.tar.gz) | `a9529c35e258ddf0da7e585bb7106f2635178b07691763dde483c47f579754a9`
+| filename                                                                                              | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-node-linux-amd64.tar.gz)     | `59fd08906a4bd2e1f5f2c8bd4098928a23add4a6e3ff5006cd28a0099cbc5dcb` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-node-linux-arm.tar.gz)         | `4465e4452dc1270f0ac9808d681d58d159f25b73a69a85f1206890378fd76925` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-node-linux-arm64.tar.gz)     | `ad80ff26a583d8cfbd576151c9d3b71a6e345dfadb349f0529667aaaac39d562` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-node-linux-ppc64le.tar.gz) | `21c4685a50758737c4466cbc6f221dee534f50ecf542d924558a00a08fc41db3` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-node-linux-s390x.tar.gz)     | `d9ccb9bc1acc55a168a48c9ab29ecba335aaabeff484e74823747174019dbc65` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.6/kubernetes-node-windows-amd64.tar.gz) | `a9529c35e258ddf0da7e585bb7106f2635178b07691763dde483c47f579754a9` |
 
 ## Changelog since v1.9.5
 
@@ -583,46 +583,46 @@ filename | sha256 hash
 ## Downloads for v1.9.5
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes.tar.gz) | `72947d7ac9a6f5bfe9f98b3362ce176cfc4d7c35caa1cf974ca2fd6dbc8ad608`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-src.tar.gz) | `a02261fb0e1d70feb95af36d404ad247ee46103b84748a5fec8b906648f68e0f`
+| filename                                                                | sha256 hash                                                        |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes.tar.gz)         | `72947d7ac9a6f5bfe9f98b3362ce176cfc4d7c35caa1cf974ca2fd6dbc8ad608` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-src.tar.gz) | `a02261fb0e1d70feb95af36d404ad247ee46103b84748a5fec8b906648f68e0f` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-darwin-386.tar.gz) | `5ee29f16801e5776e985dd2a02bebe0ba25079ba0a5d331115bc9cd2a5b1225c`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-darwin-amd64.tar.gz) | `5309c71bae2f1a8133d5c41522b827c0905fdaf2122690388fa5e15f4898a1c9`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-linux-386.tar.gz) | `8e75b94eb78187033583b9bd9e53fbe4f74b242b9a8f03ebc953db6806604ae4`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-linux-amd64.tar.gz) | `3248cff16e96610166f8b1c7c2d5b2403fb4fd15bff5af6e935388105ca62bc4`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-linux-arm.tar.gz) | `d7836eb1d723db98a3a1d9b4e5fe16f9ee5b3304b680bd78d158ebcea59fdcb3`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-linux-arm64.tar.gz) | `5ce9642d2413c87ffe42a90ba4878b0793f0fd5e143e00640c31a92ae1d80ded`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-linux-ppc64le.tar.gz) | `6fd223aa94d18abca50a1f7f9607a23fba487770eba4de0f696e9a6bebd565da`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-linux-s390x.tar.gz) | `eadc49e8c33461b1290fcf07b49db639478837f3bb7330d50fe2516fcf919e1a`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-windows-386.tar.gz) | `cd2a65af308864e1a6128c40e87ddc56ece6d20de7ecc7009f3356a534a0fcfb`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-windows-amd64.tar.gz) | `e1f14e4f4028f545a9ab1bb02ff47b0a80afcb4f3a6f15e7b141fe580440e15f`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-darwin-386.tar.gz)       | `5ee29f16801e5776e985dd2a02bebe0ba25079ba0a5d331115bc9cd2a5b1225c` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-darwin-amd64.tar.gz)   | `5309c71bae2f1a8133d5c41522b827c0905fdaf2122690388fa5e15f4898a1c9` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-linux-386.tar.gz)         | `8e75b94eb78187033583b9bd9e53fbe4f74b242b9a8f03ebc953db6806604ae4` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-linux-amd64.tar.gz)     | `3248cff16e96610166f8b1c7c2d5b2403fb4fd15bff5af6e935388105ca62bc4` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-linux-arm.tar.gz)         | `d7836eb1d723db98a3a1d9b4e5fe16f9ee5b3304b680bd78d158ebcea59fdcb3` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-linux-arm64.tar.gz)     | `5ce9642d2413c87ffe42a90ba4878b0793f0fd5e143e00640c31a92ae1d80ded` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-linux-ppc64le.tar.gz) | `6fd223aa94d18abca50a1f7f9607a23fba487770eba4de0f696e9a6bebd565da` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-linux-s390x.tar.gz)     | `eadc49e8c33461b1290fcf07b49db639478837f3bb7330d50fe2516fcf919e1a` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-windows-386.tar.gz)     | `cd2a65af308864e1a6128c40e87ddc56ece6d20de7ecc7009f3356a534a0fcfb` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-client-windows-amd64.tar.gz) | `e1f14e4f4028f545a9ab1bb02ff47b0a80afcb4f3a6f15e7b141fe580440e15f` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-server-linux-amd64.tar.gz) | `189e299a990f3dd2be9d2ac6c8315ea43a0ce1ccfc5d9d6b8c3325537a90395f`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-server-linux-arm.tar.gz) | `408187d6a9cd8fa76581cdd64e438804993d39aea4061fd879cb9f30ddebdbda`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-server-linux-arm64.tar.gz) | `5b68c3160c5c5455049684ffd3fcbe2c8037a0e8c992d657ff6f42de9db5d602`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-server-linux-ppc64le.tar.gz) | `224d6566030d7b5e3215a257a625bda51dfa9c02af27bdcb1fbec9c0a57d7749`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-server-linux-s390x.tar.gz) | `46c07056949cea5bc8ce60fb6c2b8cefee1fe7dc7adc705aeb8ef8ad0d703738`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-server-linux-amd64.tar.gz)     | `189e299a990f3dd2be9d2ac6c8315ea43a0ce1ccfc5d9d6b8c3325537a90395f` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-server-linux-arm.tar.gz)         | `408187d6a9cd8fa76581cdd64e438804993d39aea4061fd879cb9f30ddebdbda` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-server-linux-arm64.tar.gz)     | `5b68c3160c5c5455049684ffd3fcbe2c8037a0e8c992d657ff6f42de9db5d602` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-server-linux-ppc64le.tar.gz) | `224d6566030d7b5e3215a257a625bda51dfa9c02af27bdcb1fbec9c0a57d7749` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-server-linux-s390x.tar.gz)     | `46c07056949cea5bc8ce60fb6c2b8cefee1fe7dc7adc705aeb8ef8ad0d703738` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-node-linux-amd64.tar.gz) | `46e5d05356e9ea99877cb1b0ef033cdc5a5e87df5a5c45c5cbc1f54adb278c1d`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-node-linux-arm.tar.gz) | `022044653f19fa662467aea85ce8586d59e5888b8863cf5d95ca3c70424906c9`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-node-linux-arm64.tar.gz) | `89ddd363d6ee207a9e78211dac9a74771d4eaf80668377d880632e8b31fd61d4`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-node-linux-ppc64le.tar.gz) | `77543ec335bab7c69eb0b5a651de7252ecf033120867cd45029f65e07e901027`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-node-linux-s390x.tar.gz) | `02266ccf4c16cf46fe8c218d12ad8c2c4513457f1b64aeb9d1e6ce59fb92c8b9`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-node-windows-amd64.tar.gz) | `adc21f94570496c6299d4bf002f1b749d4695f094027aeaf24deb82f9818214d`
+| filename                                                                                              | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-node-linux-amd64.tar.gz)     | `46e5d05356e9ea99877cb1b0ef033cdc5a5e87df5a5c45c5cbc1f54adb278c1d` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-node-linux-arm.tar.gz)         | `022044653f19fa662467aea85ce8586d59e5888b8863cf5d95ca3c70424906c9` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-node-linux-arm64.tar.gz)     | `89ddd363d6ee207a9e78211dac9a74771d4eaf80668377d880632e8b31fd61d4` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-node-linux-ppc64le.tar.gz) | `77543ec335bab7c69eb0b5a651de7252ecf033120867cd45029f65e07e901027` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-node-linux-s390x.tar.gz)     | `02266ccf4c16cf46fe8c218d12ad8c2c4513457f1b64aeb9d1e6ce59fb92c8b9` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.5/kubernetes-node-windows-amd64.tar.gz) | `adc21f94570496c6299d4bf002f1b749d4695f094027aeaf24deb82f9818214d` |
 
 ## Changelog since v1.9.4
 
@@ -649,46 +649,46 @@ filename | sha256 hash
 ## Downloads for v1.9.4
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes.tar.gz) | `45b6aa8adbf3cf9fe37ddf063400a984766363b31f4da6204c00d02815616ce4`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-src.tar.gz) | `645819c4e479d80d4f489bb022e3332fcede8fcb8e4265245621547d0b5ac8a7`
+| filename                                                                | sha256 hash                                                        |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes.tar.gz)         | `45b6aa8adbf3cf9fe37ddf063400a984766363b31f4da6204c00d02815616ce4` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-src.tar.gz) | `645819c4e479d80d4f489bb022e3332fcede8fcb8e4265245621547d0b5ac8a7` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-darwin-386.tar.gz) | `8a6401958fa52b0a56011a7650ca2ab06d95b6927826cbc4834287e313f7216b`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-darwin-amd64.tar.gz) | `7217f3d72ee5a23a06703c262dc051728775615236b87fa53c45969152a92c8d`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-linux-386.tar.gz) | `e5bd0c3fe36accd55e11854e4893fdced22261ef70d6ad22f67f8a70efbfee57`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-linux-amd64.tar.gz) | `db6ec27f4541ef91f73a3dd173851fea06c17a1eac52b86641d6d639f3dfc2ea`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-linux-arm.tar.gz) | `15e385d032165cade02a4969618c13fb8b3e1074c06318581b646bd93cfc7153`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-linux-arm64.tar.gz) | `a49b589cb08711714f70cbdf5fc2734a981746b0e29858c60bc83b4ca226a132`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-linux-ppc64le.tar.gz) | `3aae4268fdc5a81f0593abf5161c172b0c88c57f61ff6515a7cde1c7b35afc21`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-linux-s390x.tar.gz) | `fb28c3940f3ab905caafccf277e2fe8fcdda7627dd8b784f25ca400d0e2383a2`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-windows-386.tar.gz) | `243e4dc67fe9a55824c4648ba77589bcb7e34850095056433e5f15238cd3da32`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-windows-amd64.tar.gz) | `b4ce826e60550c4a6852f28537565e115392a979f8c91095fdc2b61c13431e9a`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-darwin-386.tar.gz)       | `8a6401958fa52b0a56011a7650ca2ab06d95b6927826cbc4834287e313f7216b` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-darwin-amd64.tar.gz)   | `7217f3d72ee5a23a06703c262dc051728775615236b87fa53c45969152a92c8d` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-linux-386.tar.gz)         | `e5bd0c3fe36accd55e11854e4893fdced22261ef70d6ad22f67f8a70efbfee57` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-linux-amd64.tar.gz)     | `db6ec27f4541ef91f73a3dd173851fea06c17a1eac52b86641d6d639f3dfc2ea` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-linux-arm.tar.gz)         | `15e385d032165cade02a4969618c13fb8b3e1074c06318581b646bd93cfc7153` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-linux-arm64.tar.gz)     | `a49b589cb08711714f70cbdf5fc2734a981746b0e29858c60bc83b4ca226a132` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-linux-ppc64le.tar.gz) | `3aae4268fdc5a81f0593abf5161c172b0c88c57f61ff6515a7cde1c7b35afc21` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-linux-s390x.tar.gz)     | `fb28c3940f3ab905caafccf277e2fe8fcdda7627dd8b784f25ca400d0e2383a2` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-windows-386.tar.gz)     | `243e4dc67fe9a55824c4648ba77589bcb7e34850095056433e5f15238cd3da32` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-client-windows-amd64.tar.gz) | `b4ce826e60550c4a6852f28537565e115392a979f8c91095fdc2b61c13431e9a` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-server-linux-amd64.tar.gz) | `ef7ffabb220df9616d9a483a815c3182d44c868a5bbb9ad1b1297270d3f59fec`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-server-linux-arm.tar.gz) | `bff92c29be844663c087f17c85d527d9cf458ddcdeee0926f74da48d0d980c31`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-server-linux-arm64.tar.gz) | `568c8966ebe05164452e6ae152352dc6d05a56bfb9b5c1860f5a68c15b55c0bd`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-server-linux-ppc64le.tar.gz) | `39a1918ae53022fb38c98a02b945ae6cd5607a3a71011b19395fbc759739a453`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-server-linux-s390x.tar.gz) | `2ea1af6654d5b3178fd4738c7fe5d019e0b4ea5fab746ebe2daa559d661844c7`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-server-linux-amd64.tar.gz)     | `ef7ffabb220df9616d9a483a815c3182d44c868a5bbb9ad1b1297270d3f59fec` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-server-linux-arm.tar.gz)         | `bff92c29be844663c087f17c85d527d9cf458ddcdeee0926f74da48d0d980c31` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-server-linux-arm64.tar.gz)     | `568c8966ebe05164452e6ae152352dc6d05a56bfb9b5c1860f5a68c15b55c0bd` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-server-linux-ppc64le.tar.gz) | `39a1918ae53022fb38c98a02b945ae6cd5607a3a71011b19395fbc759739a453` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-server-linux-s390x.tar.gz)     | `2ea1af6654d5b3178fd4738c7fe5d019e0b4ea5fab746ebe2daa559d661844c7` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-node-linux-amd64.tar.gz) | `a8224a7bf2b1b9aeab80946cfcf0f68549b3972f41850d857487c912318780c8`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-node-linux-arm.tar.gz) | `503ae9d552e94f0fd4fe44787f38c3fc67c47f84f8d3567cc043375962d295a3`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-node-linux-arm64.tar.gz) | `e6578a7929858ab4b411a0ff6ea2c2d0c78dfc94ea4e23210d1db92fee3a930f`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-node-linux-ppc64le.tar.gz) | `c1269cb6a78fc5bb57b47ed24458e4bd17cad6c849b5951c919d39ff72bcb0da`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-node-linux-s390x.tar.gz) | `06f2027b133e3617806b327c7a7248c75025146efc31ba2cabe9480ba3dc7fed`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-node-windows-amd64.tar.gz) | `2304b297bd9aec7e4285c697db75a523ff9dbb2c00e3baccf90375d4fdab5b91`
+| filename                                                                                              | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-node-linux-amd64.tar.gz)     | `a8224a7bf2b1b9aeab80946cfcf0f68549b3972f41850d857487c912318780c8` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-node-linux-arm.tar.gz)         | `503ae9d552e94f0fd4fe44787f38c3fc67c47f84f8d3567cc043375962d295a3` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-node-linux-arm64.tar.gz)     | `e6578a7929858ab4b411a0ff6ea2c2d0c78dfc94ea4e23210d1db92fee3a930f` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-node-linux-ppc64le.tar.gz) | `c1269cb6a78fc5bb57b47ed24458e4bd17cad6c849b5951c919d39ff72bcb0da` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-node-linux-s390x.tar.gz)     | `06f2027b133e3617806b327c7a7248c75025146efc31ba2cabe9480ba3dc7fed` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.4/kubernetes-node-windows-amd64.tar.gz) | `2304b297bd9aec7e4285c697db75a523ff9dbb2c00e3baccf90375d4fdab5b91` |
 
 ## Changelog since v1.9.3
 
@@ -724,46 +724,46 @@ filename | sha256 hash
 ## Downloads for v1.9.3
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes.tar.gz) | `b495325eacd1354514b20ef1f0b99c6a41277842fc93b6cf5c9cb6e8657c266f`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-src.tar.gz) | `f99a016dc616be37e7fe161ff435335a2442ebcede622486e7a9cf0bacedb625`
+| filename                                                                | sha256 hash                                                        |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes.tar.gz)         | `b495325eacd1354514b20ef1f0b99c6a41277842fc93b6cf5c9cb6e8657c266f` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-src.tar.gz) | `f99a016dc616be37e7fe161ff435335a2442ebcede622486e7a9cf0bacedb625` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-darwin-386.tar.gz) | `084dd17c182acbc1ee248ea9f9fc720224be6245f13d9904cd7ca44205eb38ed`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-darwin-amd64.tar.gz) | `c6ae13f8da18322ca3651b289c8e48475839e6f4c741ae12342cd69bde467773`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-linux-386.tar.gz) | `231d9255c11d38b88c6b7febe43d1ea9564c6b36b34cb905450c7beb7c46e051`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-linux-amd64.tar.gz) | `2f509c05f0c4e1c1ac9e98879a1924f24546905349457904344d79dc639217be`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-linux-arm64.tar.gz) | `d8fe5dc1bc80d5dfb60e811c0bfcd392b2761f76400fc4c48b17d4d4cd0aabf1`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-linux-arm.tar.gz) | `7c084e01a97379256746ada2b980e36e727acc23aaa614d98e4e0a144faad37e`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-linux-ppc64le.tar.gz) | `669629d372ebe169140238f106c6d97b53a1895f4ac8393147fbddddf83eeb47`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-linux-s390x.tar.gz) | `1627933c04ba9a155ac63c0a9a90ada32badd618c2e2919d3044cd5039963cc4`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-windows-386.tar.gz) | `68de0d599a5e09195479602390343a017296b3aa774b4a783455581e1065cc8d`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-windows-amd64.tar.gz) | `e8872561f33258a8509e90aa955c5b57d6b5d9a657864bf5002e21285a8f4792`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-darwin-386.tar.gz)       | `084dd17c182acbc1ee248ea9f9fc720224be6245f13d9904cd7ca44205eb38ed` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-darwin-amd64.tar.gz)   | `c6ae13f8da18322ca3651b289c8e48475839e6f4c741ae12342cd69bde467773` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-linux-386.tar.gz)         | `231d9255c11d38b88c6b7febe43d1ea9564c6b36b34cb905450c7beb7c46e051` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-linux-amd64.tar.gz)     | `2f509c05f0c4e1c1ac9e98879a1924f24546905349457904344d79dc639217be` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-linux-arm64.tar.gz)     | `d8fe5dc1bc80d5dfb60e811c0bfcd392b2761f76400fc4c48b17d4d4cd0aabf1` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-linux-arm.tar.gz)         | `7c084e01a97379256746ada2b980e36e727acc23aaa614d98e4e0a144faad37e` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-linux-ppc64le.tar.gz) | `669629d372ebe169140238f106c6d97b53a1895f4ac8393147fbddddf83eeb47` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-linux-s390x.tar.gz)     | `1627933c04ba9a155ac63c0a9a90ada32badd618c2e2919d3044cd5039963cc4` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-windows-386.tar.gz)     | `68de0d599a5e09195479602390343a017296b3aa774b4a783455581e1065cc8d` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-client-windows-amd64.tar.gz) | `e8872561f33258a8509e90aa955c5b57d6b5d9a657864bf5002e21285a8f4792` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-server-linux-amd64.tar.gz) | `09ab78a1b091ce8affb39d5218ba780eb36bc8026d557ed6d5efcd5a51b7927a`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-server-linux-arm64.tar.gz) | `f3e38a8ffae0b5f2ac0c776a0b4586630e8b258f2802237ebda4d612f6d41d9e`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-server-linux-arm.tar.gz) | `eeba15fc5db374e6e1b66b846988422e751752d930e4c2c89f5a92de5f466010`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-server-linux-ppc64le.tar.gz) | `ce05d9cf268b213e9a57dcbb5f9d570c62e72a15f8af9e692f4a26a8f40d8df1`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-server-linux-s390x.tar.gz) | `1ca63330add758e7638357eba79753d1af610ea5de8b082aa740ef4852abd51a`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-server-linux-amd64.tar.gz)     | `09ab78a1b091ce8affb39d5218ba780eb36bc8026d557ed6d5efcd5a51b7927a` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-server-linux-arm64.tar.gz)     | `f3e38a8ffae0b5f2ac0c776a0b4586630e8b258f2802237ebda4d612f6d41d9e` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-server-linux-arm.tar.gz)         | `eeba15fc5db374e6e1b66b846988422e751752d930e4c2c89f5a92de5f466010` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-server-linux-ppc64le.tar.gz) | `ce05d9cf268b213e9a57dcbb5f9d570c62e72a15f8af9e692f4a26a8f40d8df1` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-server-linux-s390x.tar.gz)     | `1ca63330add758e7638357eba79753d1af610ea5de8b082aa740ef4852abd51a` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-node-linux-amd64.tar.gz) | `c40f983c11f93752a40180cb719ddd473cbf07f43a3af5d2b575411c85b76f88`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-node-linux-arm64.tar.gz) | `7a0c5c313d14d88bd11010d416c0614e7dc2362e78e1ffb65ee098bfe944b881`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-node-linux-arm.tar.gz) | `7a3e288cb04e3fe5f2537645bd74a68d7b471c15c6eb51eb9d5e1ac6edfc7e9f`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-node-linux-ppc64le.tar.gz) | `401f763112d20cf2c613d065beecd47387bb11d82a49fd2222a2ac38a4e06c20`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-node-linux-s390x.tar.gz) | `9a6d921e1cef37dcbaac61be13a70410cd03bc26335b7730cce6d9d3c8506b22`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-node-windows-amd64.tar.gz) | `0db90e50c23ef16e9bfa5a990647bd4299a809166a2a37764e880b1910feee49`
+| filename                                                                                              | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-node-linux-amd64.tar.gz)     | `c40f983c11f93752a40180cb719ddd473cbf07f43a3af5d2b575411c85b76f88` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-node-linux-arm64.tar.gz)     | `7a0c5c313d14d88bd11010d416c0614e7dc2362e78e1ffb65ee098bfe944b881` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-node-linux-arm.tar.gz)         | `7a3e288cb04e3fe5f2537645bd74a68d7b471c15c6eb51eb9d5e1ac6edfc7e9f` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-node-linux-ppc64le.tar.gz) | `401f763112d20cf2c613d065beecd47387bb11d82a49fd2222a2ac38a4e06c20` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-node-linux-s390x.tar.gz)     | `9a6d921e1cef37dcbaac61be13a70410cd03bc26335b7730cce6d9d3c8506b22` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.3/kubernetes-node-windows-amd64.tar.gz) | `0db90e50c23ef16e9bfa5a990647bd4299a809166a2a37764e880b1910feee49` |
 
 ## Changelog since v1.9.2
 
@@ -814,46 +814,46 @@ filename | sha256 hash
 ## Downloads for v1.9.2
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes.tar.gz) | `7a922d49b1194cb1b59b22cecb4eb1197f7c37250d4326410dc71aa5dc5ec8a2`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-src.tar.gz) | `9f128809cdd442d71a13f7c61c7a0e03e832cf0c068a86184c1bcc9acdb78872`
+| filename                                                                | sha256 hash                                                        |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes.tar.gz)         | `7a922d49b1194cb1b59b22cecb4eb1197f7c37250d4326410dc71aa5dc5ec8a2` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-src.tar.gz) | `9f128809cdd442d71a13f7c61c7a0e03e832cf0c068a86184c1bcc9acdb78872` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-darwin-386.tar.gz) | `37d2dd1b1762f1040699584736bbc1a2392e94779a19061d477786bcce3d3f01`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-darwin-amd64.tar.gz) | `42adc9762b30bfd3648323f9a8f350efeedec08a901997073f6d4244f7a16f78`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-linux-386.tar.gz) | `5dde6c6388353376aaa0bd731b0366d9d2d11baee3746662b008e09d9618d55f`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-linux-amd64.tar.gz) | `c45cf9e9d27b9d1bfc6d26f86856271fec6f8e7007f014597d27668f72f8c349`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-linux-arm64.tar.gz) | `05c3810b00adcdbf7bc67671847f11e287da72f308cc704e5679e83564236fee`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-linux-arm.tar.gz) | `a9421d4627eb9eaa1e46cfd4276943e25b5b80e52db6945f173a2a45782ce42d`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-linux-ppc64le.tar.gz) | `adc345ab050e09a3069a47e862c0ce88630a586905b33f6e5fd339005ceffbbf`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-linux-s390x.tar.gz) | `fdff4b462e67569a4a1110b696d8af2c563e0a19e50a58a7b1a4346942b07993`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-windows-386.tar.gz) | `1a82e8e4213153993a6e86e74120f62f95645952b223ed8586316358dd22a225`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-windows-amd64.tar.gz) | `a8648d4d3e0f85597bd57de87459a040ceab4c073d647027a70b0fba8862eab3`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-darwin-386.tar.gz)       | `37d2dd1b1762f1040699584736bbc1a2392e94779a19061d477786bcce3d3f01` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-darwin-amd64.tar.gz)   | `42adc9762b30bfd3648323f9a8f350efeedec08a901997073f6d4244f7a16f78` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-linux-386.tar.gz)         | `5dde6c6388353376aaa0bd731b0366d9d2d11baee3746662b008e09d9618d55f` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-linux-amd64.tar.gz)     | `c45cf9e9d27b9d1bfc6d26f86856271fec6f8e7007f014597d27668f72f8c349` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-linux-arm64.tar.gz)     | `05c3810b00adcdbf7bc67671847f11e287da72f308cc704e5679e83564236fee` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-linux-arm.tar.gz)         | `a9421d4627eb9eaa1e46cfd4276943e25b5b80e52db6945f173a2a45782ce42d` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-linux-ppc64le.tar.gz) | `adc345ab050e09a3069a47e862c0ce88630a586905b33f6e5fd339005ceffbbf` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-linux-s390x.tar.gz)     | `fdff4b462e67569a4a1110b696d8af2c563e0a19e50a58a7b1a4346942b07993` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-windows-386.tar.gz)     | `1a82e8e4213153993a6e86e74120f62f95645952b223ed8586316358dd22a225` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-client-windows-amd64.tar.gz) | `a8648d4d3e0f85597bd57de87459a040ceab4c073d647027a70b0fba8862eab3` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-server-linux-amd64.tar.gz) | `2218fe0b939273b57ce00c7d5f3f7d2c34ebde5ae500ba2646eea6ba26c7c63d`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-server-linux-arm64.tar.gz) | `3b4bc6cf91c3eaf37ef2b361dd77e838f0a8ca2b8cbb4dd42793c1fea5186b69`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-server-linux-arm.tar.gz) | `73e77da0ddc951f791b5f7b73420ba0dbb141b3637cc48b4e916a41249e40ce3`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-server-linux-ppc64le.tar.gz) | `860ba4ac773e4aff69dde781cac7ac1fb1824f2158155dfa49c50dd3acf0ab82`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-server-linux-s390x.tar.gz) | `19e0fd7863e217b4cb67f91b56ceb5939ae677f523681bdf8ccac174f36f576d`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-server-linux-amd64.tar.gz)     | `2218fe0b939273b57ce00c7d5f3f7d2c34ebde5ae500ba2646eea6ba26c7c63d` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-server-linux-arm64.tar.gz)     | `3b4bc6cf91c3eaf37ef2b361dd77e838f0a8ca2b8cbb4dd42793c1fea5186b69` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-server-linux-arm.tar.gz)         | `73e77da0ddc951f791b5f7b73420ba0dbb141b3637cc48b4e916a41249e40ce3` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-server-linux-ppc64le.tar.gz) | `860ba4ac773e4aff69dde781cac7ac1fb1824f2158155dfa49c50dd3acf0ab82` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-server-linux-s390x.tar.gz)     | `19e0fd7863e217b4cb67f91b56ceb5939ae677f523681bdf8ccac174f36f576d` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-node-linux-amd64.tar.gz) | `f86b7038dc89d79b277c5fba499f391c25f5aba8f5caa3119c05065f9917b6f9`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-node-linux-arm64.tar.gz) | `87f40c37a3e359a9350a3bcbe0e27ad6e7dfa0d8ee5f6d2ecf061813423ffa73`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-node-linux-arm.tar.gz) | `b73d879a03e7eba5543af0b56085ebb4919d401f6a06d4803517ddf606e8240e`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-node-linux-ppc64le.tar.gz) | `26331e5d84d98fc3a94d2d55fd411159b2a79b6083758cea1dac36a0a4a44336`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-node-linux-s390x.tar.gz) | `cbf52f3942965bb659d1f0f624e09ff01b2ee9f6e6217b3876c41600e1d4c711`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-node-windows-amd64.tar.gz) | `70d59046a7c949d4fd4850ee57b1cd44dddfb041c548a21354ee30d7bfb1003d`
+| filename                                                                                              | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-node-linux-amd64.tar.gz)     | `f86b7038dc89d79b277c5fba499f391c25f5aba8f5caa3119c05065f9917b6f9` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-node-linux-arm64.tar.gz)     | `87f40c37a3e359a9350a3bcbe0e27ad6e7dfa0d8ee5f6d2ecf061813423ffa73` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-node-linux-arm.tar.gz)         | `b73d879a03e7eba5543af0b56085ebb4919d401f6a06d4803517ddf606e8240e` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-node-linux-ppc64le.tar.gz) | `26331e5d84d98fc3a94d2d55fd411159b2a79b6083758cea1dac36a0a4a44336` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-node-linux-s390x.tar.gz)     | `cbf52f3942965bb659d1f0f624e09ff01b2ee9f6e6217b3876c41600e1d4c711` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.2/kubernetes-node-windows-amd64.tar.gz) | `70d59046a7c949d4fd4850ee57b1cd44dddfb041c548a21354ee30d7bfb1003d` |
 
 ## Changelog since v1.9.1
 
@@ -883,46 +883,46 @@ filename | sha256 hash
 ## Downloads for v1.9.1
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes.tar.gz) | `0eece0e6c1f68535ea71b58b87e239019bb57fdd61118f3d7defa6bbf4fad5ee`
-[kubernetes-src.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-src.tar.gz) | `625ebb79412bd12feccf12e8b6a15d9c71ea681b571f34deaa59fe6c9ba55935`
+| filename                                                                                                        | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes.tar.gz)         | `0eece0e6c1f68535ea71b58b87e239019bb57fdd61118f3d7defa6bbf4fad5ee` |
+| [kubernetes-src.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-src.tar.gz) | `625ebb79412bd12feccf12e8b6a15d9c71ea681b571f34deaa59fe6c9ba55935` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-darwin-386.tar.gz) | `909556ed9b8445703d0124f2d8c1901b00afaba63a9123a4296be8663c3a2b2d`
-[kubernetes-client-darwin-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-darwin-amd64.tar.gz) | `71e191d99d3ac1426e23e087b8d0875e793e5615d3aa7ac1e175b250f9707c48`
-[kubernetes-client-linux-386.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-linux-386.tar.gz) | `1c4e60c0c056a3300c7fcc9faccd1b1ea2b337e1360c20c5b1c25fdc47923cf0`
-[kubernetes-client-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-linux-amd64.tar.gz) | `fe8fe40148df404b33069931ea30937699758ed4611ef6baddb4c21b7b19db5e`
-[kubernetes-client-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-linux-arm64.tar.gz) | `921f5711b97f0b4de69784d9c79f95e80f75a550f28fc1f26597aa0ef6faa471`
-[kubernetes-client-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-linux-arm.tar.gz) | `77b010cadef98dc832a2f560afe15e57a675ed9fbc59ffad5e19878510997874`
-[kubernetes-client-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-linux-ppc64le.tar.gz) | `02aa71ddcbe8b711814af7287aac79de5d99c1c143c0d3af5e14b1ff195b8bdc`
-[kubernetes-client-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-linux-s390x.tar.gz) | `7e315024267306a620045d003785ecc8d7f2e763a6108ae806d5d384aa7552cc`
-[kubernetes-client-windows-386.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-windows-386.tar.gz) | `99b2a81b7876498e119db4cb34c434b3790bc41cd882384037c1c1b18cba9f99`
-[kubernetes-client-windows-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-windows-amd64.tar.gz) | `d89d303cbbf9e57e5a540277158e4d83ad18ca7402b5b54665f1378bb4528599`
+| filename                                                                                                                                          | sha256 hash                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-darwin-386.tar.gz)       | `909556ed9b8445703d0124f2d8c1901b00afaba63a9123a4296be8663c3a2b2d` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-darwin-amd64.tar.gz)   | `71e191d99d3ac1426e23e087b8d0875e793e5615d3aa7ac1e175b250f9707c48` |
+| [kubernetes-client-linux-386.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-linux-386.tar.gz)         | `1c4e60c0c056a3300c7fcc9faccd1b1ea2b337e1360c20c5b1c25fdc47923cf0` |
+| [kubernetes-client-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-linux-amd64.tar.gz)     | `fe8fe40148df404b33069931ea30937699758ed4611ef6baddb4c21b7b19db5e` |
+| [kubernetes-client-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-linux-arm64.tar.gz)     | `921f5711b97f0b4de69784d9c79f95e80f75a550f28fc1f26597aa0ef6faa471` |
+| [kubernetes-client-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-linux-arm.tar.gz)         | `77b010cadef98dc832a2f560afe15e57a675ed9fbc59ffad5e19878510997874` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-linux-ppc64le.tar.gz) | `02aa71ddcbe8b711814af7287aac79de5d99c1c143c0d3af5e14b1ff195b8bdc` |
+| [kubernetes-client-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-linux-s390x.tar.gz)     | `7e315024267306a620045d003785ecc8d7f2e763a6108ae806d5d384aa7552cc` |
+| [kubernetes-client-windows-386.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-windows-386.tar.gz)     | `99b2a81b7876498e119db4cb34c434b3790bc41cd882384037c1c1b18cba9f99` |
+| [kubernetes-client-windows-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-client-windows-amd64.tar.gz) | `d89d303cbbf9e57e5a540277158e4d83ad18ca7402b5b54665f1378bb4528599` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-server-linux-amd64.tar.gz) | `5acf2527461419ba883ac352f7c36c3fa0b86a618dbede187054ad90fa233b0e`
-[kubernetes-server-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-server-linux-arm64.tar.gz) | `e1f61b4dc6e0c9986e95ec25f876f9a89966215ee8cc7f4a3539ec391b217587`
-[kubernetes-server-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-server-linux-arm.tar.gz) | `441c45e16e63e9bdf99887a896a99b3a376af778cb778cc1d0e6afc505237200`
-[kubernetes-server-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-server-linux-ppc64le.tar.gz) | `c0175f02180d9c88028ee5ad4e3ea04af8a6741a97f4900b02615f7f83c4d1c5`
-[kubernetes-server-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-server-linux-s390x.tar.gz) | `2178150d31197ad7f59d44ffea37d682c2675b3a4ea2fc3fa1eaa0e768b993f7`
+| filename                                                                                                                                          | sha256 hash                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-server-linux-amd64.tar.gz)     | `5acf2527461419ba883ac352f7c36c3fa0b86a618dbede187054ad90fa233b0e` |
+| [kubernetes-server-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-server-linux-arm64.tar.gz)     | `e1f61b4dc6e0c9986e95ec25f876f9a89966215ee8cc7f4a3539ec391b217587` |
+| [kubernetes-server-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-server-linux-arm.tar.gz)         | `441c45e16e63e9bdf99887a896a99b3a376af778cb778cc1d0e6afc505237200` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-server-linux-ppc64le.tar.gz) | `c0175f02180d9c88028ee5ad4e3ea04af8a6741a97f4900b02615f7f83c4d1c5` |
+| [kubernetes-server-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-server-linux-s390x.tar.gz)     | `2178150d31197ad7f59d44ffea37d682c2675b3a4ea2fc3fa1eaa0e768b993f7` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-node-linux-amd64.tar.gz) | `b8ff0ae693ecca4d55669c66786d6c585f8c77b41a270d65f8175eba8729663a`
-[kubernetes-node-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-node-linux-arm64.tar.gz) | `f0f63baaace463dc663c98cbc9a41e52233d1ef33410571ce3f3e78bd485787e`
-[kubernetes-node-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-node-linux-arm.tar.gz) | `554bdd11deaf390de85830c7c888dfd4d75d9de8ac147799df12993f27bde905`
-[kubernetes-node-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-node-linux-ppc64le.tar.gz) | `913af8ca8b258930e76fd3368acc83608e36e7e270638fa01a6e3be4f682d8bd`
-[kubernetes-node-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-node-linux-s390x.tar.gz) | `8192c1c80563230d727fab71514105571afa52cde8520b3d90af58e6daf0e19c`
-[kubernetes-node-windows-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-node-windows-amd64.tar.gz) | `4408e6d741c6008044584c0d7235e608c596e836d51346ee773589d9b4589fdc`
+| filename                                                                                                                                      | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-node-linux-amd64.tar.gz)     | `b8ff0ae693ecca4d55669c66786d6c585f8c77b41a270d65f8175eba8729663a` |
+| [kubernetes-node-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-node-linux-arm64.tar.gz)     | `f0f63baaace463dc663c98cbc9a41e52233d1ef33410571ce3f3e78bd485787e` |
+| [kubernetes-node-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-node-linux-arm.tar.gz)         | `554bdd11deaf390de85830c7c888dfd4d75d9de8ac147799df12993f27bde905` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-node-linux-ppc64le.tar.gz) | `913af8ca8b258930e76fd3368acc83608e36e7e270638fa01a6e3be4f682d8bd` |
+| [kubernetes-node-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-node-linux-s390x.tar.gz)     | `8192c1c80563230d727fab71514105571afa52cde8520b3d90af58e6daf0e19c` |
+| [kubernetes-node-windows-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release/release/v1.9.1/kubernetes-node-windows-amd64.tar.gz) | `4408e6d741c6008044584c0d7235e608c596e836d51346ee773589d9b4589fdc` |
 
 ## Changelog since v1.9.0
 
@@ -952,46 +952,46 @@ filename | sha256 hash
 ## Downloads for v1.9.0
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes.tar.gz) | `d8a52a97382a418b69d46a8b3946bd95c404e03a2d50489d16b36517c9dbc7f4`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-src.tar.gz) | `95d35ad7d274e5ed207674983c3e8ec28d8190c17e635ee922e2af8349fb031b`
+| filename                                                                | sha256 hash                                                        |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes.tar.gz)         | `d8a52a97382a418b69d46a8b3946bd95c404e03a2d50489d16b36517c9dbc7f4` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-src.tar.gz) | `95d35ad7d274e5ed207674983c3e8ec28d8190c17e635ee922e2af8349fb031b` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-darwin-386.tar.gz) | `2646aa4badf9281b42b921c1e9e2ed235e1305d331423f252a3380396e0c383f`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-darwin-amd64.tar.gz) | `e76e69cf58399c10908afce8bb8d1f12cb8811de7b24e657e5f9fc80e7b9b6fb`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-linux-386.tar.gz) | `bcd5ca428eb78fdaadbcf9ff78d9cbcbf70585a2d2582342a4460e55f3bbad13`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-linux-amd64.tar.gz) | `ba96c8e71dba68b1b3abcad769392fb4df53e402cb65ef25cd176346ee2c39e8`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-linux-arm64.tar.gz) | `80ceae744fbbfc7759c3d95999075f98e5d86d80e53ea83d16fa8e849da4073d`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-linux-arm.tar.gz) | `86b271e2518230f3502708cbe8f188a3a68b913c812247b8cc6fbb4c9f35f6c8`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-linux-ppc64le.tar.gz) | `8b7506ab64ceb2ff470120432d7a6a93adf14e14e612b3c53b3c238d334b55e2`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-linux-s390x.tar.gz) | `c066aa75a99c141410f9b9a78d230aff4a14dee472fe2b17729e902739798831`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-windows-386.tar.gz) | `a315535d6a64842a7c2efbf2bb876c0b73db7efd4c848812af07956c2446f526`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-windows-amd64.tar.gz) | `5d2ba1f008253da1a784c8bb5266d026fb6fdac5d22133b51e86d348dbaff49b`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-darwin-386.tar.gz)       | `2646aa4badf9281b42b921c1e9e2ed235e1305d331423f252a3380396e0c383f` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-darwin-amd64.tar.gz)   | `e76e69cf58399c10908afce8bb8d1f12cb8811de7b24e657e5f9fc80e7b9b6fb` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-linux-386.tar.gz)         | `bcd5ca428eb78fdaadbcf9ff78d9cbcbf70585a2d2582342a4460e55f3bbad13` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-linux-amd64.tar.gz)     | `ba96c8e71dba68b1b3abcad769392fb4df53e402cb65ef25cd176346ee2c39e8` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-linux-arm64.tar.gz)     | `80ceae744fbbfc7759c3d95999075f98e5d86d80e53ea83d16fa8e849da4073d` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-linux-arm.tar.gz)         | `86b271e2518230f3502708cbe8f188a3a68b913c812247b8cc6fbb4c9f35f6c8` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-linux-ppc64le.tar.gz) | `8b7506ab64ceb2ff470120432d7a6a93adf14e14e612b3c53b3c238d334b55e2` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-linux-s390x.tar.gz)     | `c066aa75a99c141410f9b9a78d230aff4a14dee472fe2b17729e902739798831` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-windows-386.tar.gz)     | `a315535d6a64842a7c2efbf2bb876c0b73db7efd4c848812af07956c2446f526` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-client-windows-amd64.tar.gz) | `5d2ba1f008253da1a784c8bb5266d026fb6fdac5d22133b51e86d348dbaff49b` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-server-linux-amd64.tar.gz) | `a8d7be19e3b662681dc50dc0085ca12045979530a27d0200cf986ada3eff4d32`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-server-linux-arm64.tar.gz) | `8ef6ad23c60a50b4255ff41db044b2f5922e2a4b0332303065d9e66688a0b026`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-server-linux-arm.tar.gz) | `7cb99cf65553c9637ee6f55821ea3f778873a9912917ebbd6203e06d5effb055`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-server-linux-ppc64le.tar.gz) | `529b0f45a0fc688aa624aa2b850f28807ce2be3ac1660189f20cd3ae864ac064`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-server-linux-s390x.tar.gz) | `692f0c198da712f15ff93a4634c67f9105e3ec603240b50b51a84480ed63e987`
+| filename                                                                                                  | sha256 hash                                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-server-linux-amd64.tar.gz)     | `a8d7be19e3b662681dc50dc0085ca12045979530a27d0200cf986ada3eff4d32` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-server-linux-arm64.tar.gz)     | `8ef6ad23c60a50b4255ff41db044b2f5922e2a4b0332303065d9e66688a0b026` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-server-linux-arm.tar.gz)         | `7cb99cf65553c9637ee6f55821ea3f778873a9912917ebbd6203e06d5effb055` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-server-linux-ppc64le.tar.gz) | `529b0f45a0fc688aa624aa2b850f28807ce2be3ac1660189f20cd3ae864ac064` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-server-linux-s390x.tar.gz)     | `692f0c198da712f15ff93a4634c67f9105e3ec603240b50b51a84480ed63e987` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-node-linux-amd64.tar.gz) | `7ff3f526d1c4ec23516a65ecec3b947fd8f52d8c0605473b1a87159399dfeab1`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-node-linux-arm64.tar.gz) | `fada290471467c341734a3cfff63cd0f867aad95623b67096029d76c459bde06`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-node-linux-arm.tar.gz) | `ded3640bef5f9701f7f622de4ed162cd2e5a968e80a6a56b843ba84a0b146fac`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-node-linux-ppc64le.tar.gz) | `a83ebe3b360d33c2190bffd5bf0e2c68268ca2c85e3b5295c1a71ddb517a4f90`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-node-linux-s390x.tar.gz) | `1210efdf35ec5e0b2e96ff7e456e340684ff12dbea36aa255ac592ca7195e168`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-node-windows-amd64.tar.gz) | `9961ad142abc7e769bbe962aeb30a014065fae83291a2d65bc2da91f04fbf185`
+| filename                                                                                              | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-node-linux-amd64.tar.gz)     | `7ff3f526d1c4ec23516a65ecec3b947fd8f52d8c0605473b1a87159399dfeab1` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-node-linux-arm64.tar.gz)     | `fada290471467c341734a3cfff63cd0f867aad95623b67096029d76c459bde06` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-node-linux-arm.tar.gz)         | `ded3640bef5f9701f7f622de4ed162cd2e5a968e80a6a56b843ba84a0b146fac` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-node-linux-ppc64le.tar.gz) | `a83ebe3b360d33c2190bffd5bf0e2c68268ca2c85e3b5295c1a71ddb517a4f90` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-node-linux-s390x.tar.gz)     | `1210efdf35ec5e0b2e96ff7e456e340684ff12dbea36aa255ac592ca7195e168` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0/kubernetes-node-windows-amd64.tar.gz) | `9961ad142abc7e769bbe962aeb30a014065fae83291a2d65bc2da91f04fbf185` |
 
 ## 1.9 Release Notes
 
@@ -1655,46 +1655,46 @@ This release passes 129/145 Kubernetes e2e conformance tests.
 ## Downloads for v1.9.0-beta.2
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes.tar.gz) | `e5c88addf6aca01635f283021a72e05be99daf3e87fd3cda92477d0ed63c2d11`
-[kubernetes-src.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-src.tar.gz) | `2419a0ef3681460b64eefc083d07377786b308f6cc62d0618a5c74dfb4729b03`
+| filename                                                                                                                        | sha256 hash                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes.tar.gz)         | `e5c88addf6aca01635f283021a72e05be99daf3e87fd3cda92477d0ed63c2d11` |
+| [kubernetes-src.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-src.tar.gz) | `2419a0ef3681460b64eefc083d07377786b308f6cc62d0618a5c74dfb4729b03` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-darwin-386.tar.gz) | `68d971576c3e9a16fb736f06c07ce53b8371fc67c2f37fb60e9f3a366cd37a80`
-[kubernetes-client-darwin-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-darwin-amd64.tar.gz) | `36251b7b6043adb79706ac115181aa7ecf365ced9198a4c192f1fbc2817d030c`
-[kubernetes-client-linux-386.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-linux-386.tar.gz) | `585a3dd6a3440988bce3f83ea14fb9a0a18011bc62e28959301861faa06d6da9`
-[kubernetes-client-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-linux-amd64.tar.gz) | `169769d6030d8c1d9d9bc01408b62ea3275d4632a7de85392fc95a48feeba522`
-[kubernetes-client-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-linux-arm64.tar.gz) | `7841c2af49be9ae04cda305165b172021c0e72d809c2271d05061330c220256b`
-[kubernetes-client-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-linux-arm.tar.gz) | `9ab32843cec68b036de83f54a68c2273a913be5180dc20b5cf1e084b314a9a2d`
-[kubernetes-client-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-linux-ppc64le.tar.gz) | `5a2bb39b78ef381382f9b8aac17d5dbcbef08a80ad3518ff2cf6c65bd7a6d07d`
-[kubernetes-client-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-linux-s390x.tar.gz) | `ddf4b3780f5879b9fb9115353cc26234cfc3a6db63a3cd39122340189a4bf0ca`
-[kubernetes-client-windows-386.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-windows-386.tar.gz) | `5960a0a50c92a788e90eca9d85a1d12ff1d41264816b55b3a1a28ffd3f6acf93`
-[kubernetes-client-windows-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-windows-amd64.tar.gz) | `d85778ace9bf25f5d3626aef3a9419a2c4aaa3847d5e0c2bf34d4dd8ae6b5205`
+| filename                                                                                                                                                          | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-darwin-386.tar.gz)       | `68d971576c3e9a16fb736f06c07ce53b8371fc67c2f37fb60e9f3a366cd37a80` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-darwin-amd64.tar.gz)   | `36251b7b6043adb79706ac115181aa7ecf365ced9198a4c192f1fbc2817d030c` |
+| [kubernetes-client-linux-386.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-linux-386.tar.gz)         | `585a3dd6a3440988bce3f83ea14fb9a0a18011bc62e28959301861faa06d6da9` |
+| [kubernetes-client-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-linux-amd64.tar.gz)     | `169769d6030d8c1d9d9bc01408b62ea3275d4632a7de85392fc95a48feeba522` |
+| [kubernetes-client-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-linux-arm64.tar.gz)     | `7841c2af49be9ae04cda305165b172021c0e72d809c2271d05061330c220256b` |
+| [kubernetes-client-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-linux-arm.tar.gz)         | `9ab32843cec68b036de83f54a68c2273a913be5180dc20b5cf1e084b314a9a2d` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-linux-ppc64le.tar.gz) | `5a2bb39b78ef381382f9b8aac17d5dbcbef08a80ad3518ff2cf6c65bd7a6d07d` |
+| [kubernetes-client-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-linux-s390x.tar.gz)     | `ddf4b3780f5879b9fb9115353cc26234cfc3a6db63a3cd39122340189a4bf0ca` |
+| [kubernetes-client-windows-386.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-windows-386.tar.gz)     | `5960a0a50c92a788e90eca9d85a1d12ff1d41264816b55b3a1a28ffd3f6acf93` |
+| [kubernetes-client-windows-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-client-windows-amd64.tar.gz) | `d85778ace9bf25f5d3626aef3a9419a2c4aaa3847d5e0c2bf34d4dd8ae6b5205` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-server-linux-amd64.tar.gz) | `43e16b3d79c2805d712fd61ed6fd110d9db09a60d39584ef78c24821eb32b77a`
-[kubernetes-server-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-server-linux-arm64.tar.gz) | `8580e454e6c467a30687ff5c85248919b3c0d2d0114e28cb3bf64d2e8998ff00`
-[kubernetes-server-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-server-linux-arm.tar.gz) | `d2e767be85ebf7c6c537c8e796e8fe0ce8a3f2ca526984490646acd30bf5e6fc`
-[kubernetes-server-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-server-linux-ppc64le.tar.gz) | `81dd9072e805c181b4db2dfd00fe2bdb43c00da9e07b50285bce703bfd0d75ba`
-[kubernetes-server-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-server-linux-s390x.tar.gz) | `f432c816c755d05e62cb5d5e8ac08dcb60d0df6d5121e1adaf42a32de65d6174`
+| filename                                                                                                                                                          | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-server-linux-amd64.tar.gz)     | `43e16b3d79c2805d712fd61ed6fd110d9db09a60d39584ef78c24821eb32b77a` |
+| [kubernetes-server-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-server-linux-arm64.tar.gz)     | `8580e454e6c467a30687ff5c85248919b3c0d2d0114e28cb3bf64d2e8998ff00` |
+| [kubernetes-server-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-server-linux-arm.tar.gz)         | `d2e767be85ebf7c6c537c8e796e8fe0ce8a3f2ca526984490646acd30bf5e6fc` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-server-linux-ppc64le.tar.gz) | `81dd9072e805c181b4db2dfd00fe2bdb43c00da9e07b50285bce703bfd0d75ba` |
+| [kubernetes-server-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-server-linux-s390x.tar.gz)     | `f432c816c755d05e62cb5d5e8ac08dcb60d0df6d5121e1adaf42a32de65d6174` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-node-linux-amd64.tar.gz) | `2bf2268735ca4ecbdca1a692b25329d6d9d4805963cbe0cfcbb92fc725c42481`
-[kubernetes-node-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-node-linux-arm64.tar.gz) | `3bb4a695fd2e4fca1c77283c1ad6c2914d12b33d9c5f64ac9c630a42d5e30ab2`
-[kubernetes-node-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-node-linux-arm.tar.gz) | `331c1efadf99dcb634c8da301349e3be63d27a5c5f06cc124b59fcc8b8a91cb0`
-[kubernetes-node-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-node-linux-ppc64le.tar.gz) | `ab036fdb64ed4702d7dbbadddf77af90de35f73aa13854bb5accf82acc95c7e6`
-[kubernetes-node-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-node-linux-s390x.tar.gz) | `8257af566f98325549de320d2167c1f56fd137b6225c70f6c1e34507ba124a1f`
-[kubernetes-node-windows-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-node-windows-amd64.tar.gz) | `4146fcb5bb6bf3e04641b27e4aa8501649178716fa16bd9bcb7f1fe3449db7f2`
+| filename                                                                                                                                                      | sha256 hash                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-node-linux-amd64.tar.gz)     | `2bf2268735ca4ecbdca1a692b25329d6d9d4805963cbe0cfcbb92fc725c42481` |
+| [kubernetes-node-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-node-linux-arm64.tar.gz)     | `3bb4a695fd2e4fca1c77283c1ad6c2914d12b33d9c5f64ac9c630a42d5e30ab2` |
+| [kubernetes-node-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-node-linux-arm.tar.gz)         | `331c1efadf99dcb634c8da301349e3be63d27a5c5f06cc124b59fcc8b8a91cb0` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-node-linux-ppc64le.tar.gz) | `ab036fdb64ed4702d7dbbadddf77af90de35f73aa13854bb5accf82acc95c7e6` |
+| [kubernetes-node-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-node-linux-s390x.tar.gz)     | `8257af566f98325549de320d2167c1f56fd137b6225c70f6c1e34507ba124a1f` |
+| [kubernetes-node-windows-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-beta.2/kubernetes-node-windows-amd64.tar.gz) | `4146fcb5bb6bf3e04641b27e4aa8501649178716fa16bd9bcb7f1fe3449db7f2` |
 
 ## Changelog since v1.9.0-beta.1
 
@@ -1727,46 +1727,46 @@ filename | sha256 hash
 ## Downloads for v1.9.0-beta.1
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes.tar.gz) | `ffdcf0f7cd972340bc666395d759fc18573a32775d38ed3f4fd99d4369e856e4`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-src.tar.gz) | `09bee9a955987d53c7a65d2f1a3129854ca3a34f9fb38218f0c58f5bd603494a`
+| filename                                                                       | sha256 hash                                                        |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes.tar.gz)         | `ffdcf0f7cd972340bc666395d759fc18573a32775d38ed3f4fd99d4369e856e4` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-src.tar.gz) | `09bee9a955987d53c7a65d2f1a3129854ca3a34f9fb38218f0c58f5bd603494a` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-darwin-386.tar.gz) | `9d54db976ca7a12e9208e5595b552b094e0cc532b49ba6e919d776e52e56f4a8`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-darwin-amd64.tar.gz) | `0a22af2c6c84ff8b3022c0ecebf4ba3021048fceddf7375c87c13a83488ffe2c`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-linux-386.tar.gz) | `84bb638c8e61d7a7b415d49d76d166f3924052338c454d1ae57ae36eb37445c6`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-linux-amd64.tar.gz) | `08b56240288d17f147485e79c5f6594391c5b46e26450d64e7510f65db1f9a79`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-linux-arm64.tar.gz) | `7206573b131a8915d3bc14aa660fb44890ed79fdbd498bc8f9951c221aa12ea5`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-linux-arm.tar.gz) | `7ad21796b0e0a9d247beb41d6b3a3d0aaa822b85adae4c90533ba0ef94c05b2e`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-linux-ppc64le.tar.gz) | `2076328ca0958a96c8f551b91a393aa2d6fc24bef92991a1a4d9fc8df52519a7`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-linux-s390x.tar.gz) | `17ac0aba9a4e2003cb3d06bd631032b760d1a2d521c60a25dc26687aadb5ba14`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-windows-386.tar.gz) | `3a2bebd4adb6e1bf2b30a8cedb7ec212fc43c4b02e26a0a60c3429e478a86073`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-windows-amd64.tar.gz) | `fcc852e97f0e64d1025344aefd042ceff05227bfded80142bfa99927de1a5f0e`
+| filename                                                                                                         | sha256 hash                                                        |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-darwin-386.tar.gz)       | `9d54db976ca7a12e9208e5595b552b094e0cc532b49ba6e919d776e52e56f4a8` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-darwin-amd64.tar.gz)   | `0a22af2c6c84ff8b3022c0ecebf4ba3021048fceddf7375c87c13a83488ffe2c` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-linux-386.tar.gz)         | `84bb638c8e61d7a7b415d49d76d166f3924052338c454d1ae57ae36eb37445c6` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-linux-amd64.tar.gz)     | `08b56240288d17f147485e79c5f6594391c5b46e26450d64e7510f65db1f9a79` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-linux-arm64.tar.gz)     | `7206573b131a8915d3bc14aa660fb44890ed79fdbd498bc8f9951c221aa12ea5` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-linux-arm.tar.gz)         | `7ad21796b0e0a9d247beb41d6b3a3d0aaa822b85adae4c90533ba0ef94c05b2e` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-linux-ppc64le.tar.gz) | `2076328ca0958a96c8f551b91a393aa2d6fc24bef92991a1a4d9fc8df52519a7` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-linux-s390x.tar.gz)     | `17ac0aba9a4e2003cb3d06bd631032b760d1a2d521c60a25dc26687aadb5ba14` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-windows-386.tar.gz)     | `3a2bebd4adb6e1bf2b30a8cedb7ec212fc43c4b02e26a0a60c3429e478a86073` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-client-windows-amd64.tar.gz) | `fcc852e97f0e64d1025344aefd042ceff05227bfded80142bfa99927de1a5f0e` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-server-linux-amd64.tar.gz) | `7ed2a789b86f258f1739cb165276150512a171a715da9372aeff000e946548fd`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-server-linux-arm64.tar.gz) | `e4e04a33698ac665a3e61fd8d60d4010fec6b0e3b0627dee9a965c2c2a510e3a`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-server-linux-arm.tar.gz) | `befce41457fc15c8fadf37ee5bf80b83405279c60665cfb9ecfc9f61fcd549c7`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-server-linux-ppc64le.tar.gz) | `e59e4fb84d6b890e9c6cb216ebb20546212e6c14feb077d9d0761c88e2685f4c`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-server-linux-s390x.tar.gz) | `0aa47d01907ea78b9a1a8001536d5091fca93409b81bac6eb3e90a4dff6c3faa`
+| filename                                                                                                         | sha256 hash                                                        |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-server-linux-amd64.tar.gz)     | `7ed2a789b86f258f1739cb165276150512a171a715da9372aeff000e946548fd` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-server-linux-arm64.tar.gz)     | `e4e04a33698ac665a3e61fd8d60d4010fec6b0e3b0627dee9a965c2c2a510e3a` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-server-linux-arm.tar.gz)         | `befce41457fc15c8fadf37ee5bf80b83405279c60665cfb9ecfc9f61fcd549c7` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-server-linux-ppc64le.tar.gz) | `e59e4fb84d6b890e9c6cb216ebb20546212e6c14feb077d9d0761c88e2685f4c` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-server-linux-s390x.tar.gz)     | `0aa47d01907ea78b9a1a8001536d5091fca93409b81bac6eb3e90a4dff6c3faa` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-node-linux-amd64.tar.gz) | `107bfaf72b8b6d3b5c163e61ed169c89288958750636c16bc3d781cf94bf5f4c`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-node-linux-arm64.tar.gz) | `6bc58e913a2467548664ece743617a1e595f6223100a1bad27e9a90bdf2e2927`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-node-linux-arm.tar.gz) | `d4ff8f37d7c95f7ca3aca30fa3c191f2cc5e48f0159ac6a5395ec09092574baa`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-node-linux-ppc64le.tar.gz) | `a88d65343ccb515c4eaab11352e69afee4a19c7fa345b08aaffa854b225cf305`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-node-linux-s390x.tar.gz) | `16d6a67d18273460cab4c293a5b130d4827f41ee4bf5b79b07c60ef517f580cd`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-node-windows-amd64.tar.gz) | `f086659462b6dcdd78abdf13bed339dd67c1111931bae962044aa4ae2396921d`
+| filename                                                                                                     | sha256 hash                                                        |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-node-linux-amd64.tar.gz)     | `107bfaf72b8b6d3b5c163e61ed169c89288958750636c16bc3d781cf94bf5f4c` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-node-linux-arm64.tar.gz)     | `6bc58e913a2467548664ece743617a1e595f6223100a1bad27e9a90bdf2e2927` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-node-linux-arm.tar.gz)         | `d4ff8f37d7c95f7ca3aca30fa3c191f2cc5e48f0159ac6a5395ec09092574baa` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-node-linux-ppc64le.tar.gz) | `a88d65343ccb515c4eaab11352e69afee4a19c7fa345b08aaffa854b225cf305` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-node-linux-s390x.tar.gz)     | `16d6a67d18273460cab4c293a5b130d4827f41ee4bf5b79b07c60ef517f580cd` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0-beta.1/kubernetes-node-windows-amd64.tar.gz) | `f086659462b6dcdd78abdf13bed339dd67c1111931bae962044aa4ae2396921d` |
 
 ## Changelog since v1.9.0-alpha.3
 
@@ -1892,46 +1892,46 @@ filename | sha256 hash
 ## Downloads for v1.9.0-alpha.3
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes.tar.gz) | `dce2a70ca51fb4f8979645330f36c346b9c02be0501708380ae50956485a53a4`
-[kubernetes-src.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-src.tar.gz) | `4a8c8eaf32c83968e18f75888ae0d432210262090893cad0a105eebab82b0302`
+| filename                                                                                                                         | sha256 hash                                                        |
+| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes.tar.gz)         | `dce2a70ca51fb4f8979645330f36c346b9c02be0501708380ae50956485a53a4` |
+| [kubernetes-src.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-src.tar.gz) | `4a8c8eaf32c83968e18f75888ae0d432210262090893cad0a105eebab82b0302` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-darwin-386.tar.gz) | `354d6c8d65e4248c3393a3789e9394b8c31c63da4c42f3da60c7b8bc4713ad51`
-[kubernetes-client-darwin-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-darwin-amd64.tar.gz) | `98c53e4108276535218f4c89c58974121cc28308cecf5bca676f68fa083a62c5`
-[kubernetes-client-linux-386.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-linux-386.tar.gz) | `c0dc219073dcae6fb654f33ca6d83faf5f37a2dcba3cc86b32ea5f9e18054faa`
-[kubernetes-client-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-linux-amd64.tar.gz) | `df68fc512d173d1914f7863303cc0a4335439eb76000fa5a6134d5c454f4ef31`
-[kubernetes-client-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-linux-arm64.tar.gz) | `edbf086c5446a7b48bbf5ac0e65dacf472e7e2eb7ac434ffb4835b0c643363a4`
-[kubernetes-client-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-linux-arm.tar.gz) | `138b02e0e96e9e30772e814d2650b40594e9f190442c9b31af5dcf4bd3c29fb2`
-[kubernetes-client-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-linux-ppc64le.tar.gz) | `8edb568048f64052e9ab3e2f0d9d9fee3a5c90667d00669d815c07cc1986eb03`
-[kubernetes-client-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-linux-s390x.tar.gz) | `9f0f0464041e85221cb65ab5908f7295d7237acdb6a39abff062e40be0a53b4c`
-[kubernetes-client-windows-386.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-windows-386.tar.gz) | `a9d4b6014c2856b0602b7124dad41f2f932cccea7f48ba57583352f0fbf2710f`
-[kubernetes-client-windows-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-windows-amd64.tar.gz) | `16827a05b0538ab8ef6e47b173dc5ad1c4398070324b0d2fc0510ad1efe66567`
+| filename                                                                                                                                                           | sha256 hash                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-darwin-386.tar.gz)       | `354d6c8d65e4248c3393a3789e9394b8c31c63da4c42f3da60c7b8bc4713ad51` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-darwin-amd64.tar.gz)   | `98c53e4108276535218f4c89c58974121cc28308cecf5bca676f68fa083a62c5` |
+| [kubernetes-client-linux-386.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-linux-386.tar.gz)         | `c0dc219073dcae6fb654f33ca6d83faf5f37a2dcba3cc86b32ea5f9e18054faa` |
+| [kubernetes-client-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-linux-amd64.tar.gz)     | `df68fc512d173d1914f7863303cc0a4335439eb76000fa5a6134d5c454f4ef31` |
+| [kubernetes-client-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-linux-arm64.tar.gz)     | `edbf086c5446a7b48bbf5ac0e65dacf472e7e2eb7ac434ffb4835b0c643363a4` |
+| [kubernetes-client-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-linux-arm.tar.gz)         | `138b02e0e96e9e30772e814d2650b40594e9f190442c9b31af5dcf4bd3c29fb2` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-linux-ppc64le.tar.gz) | `8edb568048f64052e9ab3e2f0d9d9fee3a5c90667d00669d815c07cc1986eb03` |
+| [kubernetes-client-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-linux-s390x.tar.gz)     | `9f0f0464041e85221cb65ab5908f7295d7237acdb6a39abff062e40be0a53b4c` |
+| [kubernetes-client-windows-386.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-windows-386.tar.gz)     | `a9d4b6014c2856b0602b7124dad41f2f932cccea7f48ba57583352f0fbf2710f` |
+| [kubernetes-client-windows-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-client-windows-amd64.tar.gz) | `16827a05b0538ab8ef6e47b173dc5ad1c4398070324b0d2fc0510ad1efe66567` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-server-linux-amd64.tar.gz) | `e2aad29fff3cc3a98c642d8bc021a6caa42b4143696ca9d42a1ae3f7e803e777`
-[kubernetes-server-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-server-linux-arm64.tar.gz) | `a7e2370d29086dadcb59fc4c3f6e88610ef72ff168577cc1854b4e9c221cad8a`
-[kubernetes-server-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-server-linux-arm.tar.gz) | `b8da04e06946b221b2ac4f6ebc8e0900cf8e750f0ca5d2e213984644048d1903`
-[kubernetes-server-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-server-linux-ppc64le.tar.gz) | `539db8044dcacc154fff92029d7c18ac9a68de426477cabcd52e01053e8de6e6`
-[kubernetes-server-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-server-linux-s390x.tar.gz) | `d793be99d39f1f7b55d381f656b059e4cd78418a6c6bcc77c2c026db82e98769`
+| filename                                                                                                                                                           | sha256 hash                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-server-linux-amd64.tar.gz)     | `e2aad29fff3cc3a98c642d8bc021a6caa42b4143696ca9d42a1ae3f7e803e777` |
+| [kubernetes-server-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-server-linux-arm64.tar.gz)     | `a7e2370d29086dadcb59fc4c3f6e88610ef72ff168577cc1854b4e9c221cad8a` |
+| [kubernetes-server-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-server-linux-arm.tar.gz)         | `b8da04e06946b221b2ac4f6ebc8e0900cf8e750f0ca5d2e213984644048d1903` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-server-linux-ppc64le.tar.gz) | `539db8044dcacc154fff92029d7c18ac9a68de426477cabcd52e01053e8de6e6` |
+| [kubernetes-server-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-server-linux-s390x.tar.gz)     | `d793be99d39f1f7b55d381f656b059e4cd78418a6c6bcc77c2c026db82e98769` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-node-linux-amd64.tar.gz) | `22dae55dd97026eae31562fde6d8459f1594b050313ef294e009144aa8c27a8e`
-[kubernetes-node-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-node-linux-arm64.tar.gz) | `8d9bd9307cd5463b2e13717c862e171e20a1ba29a91d86fa3918a460006c823b`
-[kubernetes-node-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-node-linux-arm.tar.gz) | `c696f882b4a95b13c8cf3c2e05695decb81407359911fba169a308165b06be55`
-[kubernetes-node-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-node-linux-ppc64le.tar.gz) | `611a0e04b1014263e66be91ef108a4a56291cae1438da562b157d04dfe84fd1a`
-[kubernetes-node-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-node-linux-s390x.tar.gz) | `61b619e3af7fcb836072c4b855978d7d76d6256aa99b9378488f063494518a0e`
-[kubernetes-node-windows-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-node-windows-amd64.tar.gz) | `c274258e4379f0b50b2023f659bc982a82783c3de3ae07ef2759159300175a8a`
+| filename                                                                                                                                                       | sha256 hash                                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-node-linux-amd64.tar.gz)     | `22dae55dd97026eae31562fde6d8459f1594b050313ef294e009144aa8c27a8e` |
+| [kubernetes-node-linux-arm64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-node-linux-arm64.tar.gz)     | `8d9bd9307cd5463b2e13717c862e171e20a1ba29a91d86fa3918a460006c823b` |
+| [kubernetes-node-linux-arm.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-node-linux-arm.tar.gz)         | `c696f882b4a95b13c8cf3c2e05695decb81407359911fba169a308165b06be55` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-node-linux-ppc64le.tar.gz) | `611a0e04b1014263e66be91ef108a4a56291cae1438da562b157d04dfe84fd1a` |
+| [kubernetes-node-linux-s390x.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-node-linux-s390x.tar.gz)     | `61b619e3af7fcb836072c4b855978d7d76d6256aa99b9378488f063494518a0e` |
+| [kubernetes-node-windows-amd64.tar.gz](https://storage.googleapis.com/kubernetes-release-dashpole/release/v1.9.0-alpha.3/kubernetes-node-windows-amd64.tar.gz) | `c274258e4379f0b50b2023f659bc982a82783c3de3ae07ef2759159300175a8a` |
 
 ## Changelog since v1.9.0-alpha.2
 
@@ -2026,46 +2026,46 @@ filename | sha256 hash
 ## Downloads for v1.9.0-alpha.2
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes.tar.gz) | `9d548271e8475171114b3b68323ab3c0e024cf54e25debe4702ffafe3f1d0952`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-src.tar.gz) | `99901fa7f996ddf75ecab7fcd1d33a3faca38e9d1398daa2ae30c9b3ac6a71ce`
+| filename                                                                        | sha256 hash                                                        |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes.tar.gz)         | `9d548271e8475171114b3b68323ab3c0e024cf54e25debe4702ffafe3f1d0952` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-src.tar.gz) | `99901fa7f996ddf75ecab7fcd1d33a3faca38e9d1398daa2ae30c9b3ac6a71ce` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-darwin-386.tar.gz) | `5a5e1ce20db98d7f7f0c88957440ab6c7d4b4a4dfefcb31dcd1d6546e9db01d6`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-darwin-amd64.tar.gz) | `094481f8f650321f39ba79cd6348de5052db2bb3820f55a74cf5ce33d5c98701`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-linux-386.tar.gz) | `9a7d8e682a35772ba24bd3fa7a06fb153067b9387daa4db285e15dda75de757d`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-linux-amd64.tar.gz) | `3bb742ffed1a6a51cac01c16614873fea2864c2a4432057a15db90a9d7e40aed`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-linux-arm64.tar.gz) | `928936f06161e8a6f40196381d3e0dc215ca7e7dbc5f7fe6ebccd8d8268b8177`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-linux-arm.tar.gz) | `0a0fa24107f490db0ad57f33638b1aa9ba2baccb5f250caa75405d6612a3e10a`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-linux-ppc64le.tar.gz) | `a92f790d1a480318ea206d84d24d2c1d7e43c3683e60f22e7735b63ee73ccbb4`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-linux-s390x.tar.gz) | `1bfb7f056ad91fcbc50657fb9760310a0920c15a5770eaa74cf1a17b1725a232`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-windows-386.tar.gz) | `d1b0abbc9cd0376fa0d56096e42094db8a40485082b301723d05c8e78d8f4717`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-windows-amd64.tar.gz) | `69799ea8741caadac8949a120a455e08aba4d2babba6b63fba2ee9aaeb10c84b`
+| filename                                                                                                          | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-darwin-386.tar.gz)       | `5a5e1ce20db98d7f7f0c88957440ab6c7d4b4a4dfefcb31dcd1d6546e9db01d6` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-darwin-amd64.tar.gz)   | `094481f8f650321f39ba79cd6348de5052db2bb3820f55a74cf5ce33d5c98701` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-linux-386.tar.gz)         | `9a7d8e682a35772ba24bd3fa7a06fb153067b9387daa4db285e15dda75de757d` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-linux-amd64.tar.gz)     | `3bb742ffed1a6a51cac01c16614873fea2864c2a4432057a15db90a9d7e40aed` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-linux-arm64.tar.gz)     | `928936f06161e8a6f40196381d3e0dc215ca7e7dbc5f7fe6ebccd8d8268b8177` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-linux-arm.tar.gz)         | `0a0fa24107f490db0ad57f33638b1aa9ba2baccb5f250caa75405d6612a3e10a` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-linux-ppc64le.tar.gz) | `a92f790d1a480318ea206d84d24d2c1d7e43c3683e60f22e7735b63ee73ccbb4` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-linux-s390x.tar.gz)     | `1bfb7f056ad91fcbc50657fb9760310a0920c15a5770eaa74cf1a17b1725a232` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-windows-386.tar.gz)     | `d1b0abbc9cd0376fa0d56096e42094db8a40485082b301723d05c8e78d8f4717` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-client-windows-amd64.tar.gz) | `69799ea8741caadac8949a120a455e08aba4d2babba6b63fba2ee9aaeb10c84b` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-server-linux-amd64.tar.gz) | `f3d9f67e94176aa65cffcc6557a7a251ec2384a3f89a81d3daedd8f8dd4c51a7`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-server-linux-arm64.tar.gz) | `3747b7e26d8bfba59c53b3f20d547e7e90cbb9356e513183ac27f901d7317630`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-server-linux-arm.tar.gz) | `397b7a49adf90735ceea54720dbf012c8566b34dadde911599bceefb507bc29a`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-server-linux-ppc64le.tar.gz) | `56f76ebb0788c4e23fc3ede36b52eb34b50b456bb5ff0cf7d78c383c04837565`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-server-linux-s390x.tar.gz) | `83d961657a50513db82bf421854c567206ccd34240eb8a017167cb98bdb6d38f`
+| filename                                                                                                          | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-server-linux-amd64.tar.gz)     | `f3d9f67e94176aa65cffcc6557a7a251ec2384a3f89a81d3daedd8f8dd4c51a7` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-server-linux-arm64.tar.gz)     | `3747b7e26d8bfba59c53b3f20d547e7e90cbb9356e513183ac27f901d7317630` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-server-linux-arm.tar.gz)         | `397b7a49adf90735ceea54720dbf012c8566b34dadde911599bceefb507bc29a` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-server-linux-ppc64le.tar.gz) | `56f76ebb0788c4e23fc3ede36b52eb34b50b456bb5ff0cf7d78c383c04837565` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-server-linux-s390x.tar.gz)     | `83d961657a50513db82bf421854c567206ccd34240eb8a017167cb98bdb6d38f` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-node-linux-amd64.tar.gz) | `1bb0f5ac920e27b4e51260a80fbfaa013ed7d446d58cd1f9d5f73af4d9517edf`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-node-linux-arm64.tar.gz) | `47635b9097fc6e3d9b1f1f2c3bd1558d144b1a26d1bf03cfc2e97a3c6db4c439`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-node-linux-arm.tar.gz) | `212117f1d027c79d50e7c7388951da40b440943748691ba82a3f9f6af75b3ed0`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-node-linux-ppc64le.tar.gz) | `f2b1d086d07bf2f807dbf02e1f0cd7f6528e57c55be9dadfcecde73e73980068`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-node-linux-s390x.tar.gz) | `ba6803a5c065b06cf43d1db674319008f15d4bc45900299d0b90105002af245e`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-node-windows-amd64.tar.gz) | `6d928e3bdba87db3b9198e02f84696f7345b4b78d07ff4ea048d47691c67b212`
+| filename                                                                                                      | sha256 hash                                                        |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-node-linux-amd64.tar.gz)     | `1bb0f5ac920e27b4e51260a80fbfaa013ed7d446d58cd1f9d5f73af4d9517edf` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-node-linux-arm64.tar.gz)     | `47635b9097fc6e3d9b1f1f2c3bd1558d144b1a26d1bf03cfc2e97a3c6db4c439` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-node-linux-arm.tar.gz)         | `212117f1d027c79d50e7c7388951da40b440943748691ba82a3f9f6af75b3ed0` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-node-linux-ppc64le.tar.gz) | `f2b1d086d07bf2f807dbf02e1f0cd7f6528e57c55be9dadfcecde73e73980068` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-node-linux-s390x.tar.gz)     | `ba6803a5c065b06cf43d1db674319008f15d4bc45900299d0b90105002af245e` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.2/kubernetes-node-windows-amd64.tar.gz) | `6d928e3bdba87db3b9198e02f84696f7345b4b78d07ff4ea048d47691c67b212` |
 
 ## Changelog since v1.8.0
 
@@ -2287,46 +2287,46 @@ filename | sha256 hash
 ## Downloads for v1.9.0-alpha.1
 
 
-filename | sha256 hash
--------- | -----------
-[kubernetes.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes.tar.gz) | `e2dc3eebf79368c783b64f5b6642a287cc2fd777547d99f240a35cce1f620ffc`
-[kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-src.tar.gz) | `ca8659187047f2d38a7c0ee313189c19ec35646c6ebaa8f59f2f098eca33dca0`
+| filename                                                                        | sha256 hash                                                        |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes.tar.gz)         | `e2dc3eebf79368c783b64f5b6642a287cc2fd777547d99f240a35cce1f620ffc` |
+| [kubernetes-src.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-src.tar.gz) | `ca8659187047f2d38a7c0ee313189c19ec35646c6ebaa8f59f2f098eca33dca0` |
 
 ### Client Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-darwin-386.tar.gz) | `51e0df7e6611ff4a9b3759b05e65c80555317bff03282ef39a9b53b27cdeff42`
-[kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-darwin-amd64.tar.gz) | `c6c57cc92cc456a644c0965a6aa2bd260125807b450d69376e0edb6c98aaf4d7`
-[kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-linux-386.tar.gz) | `399c8cb448d76accb71edcb00bee474f172d416c8c4f5253994e4e2d71e0dece`
-[kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-linux-amd64.tar.gz) | `fde75d7267592b34609299a93ee7e54b26a948e6f9a1f64ced666c0aae4455aa`
-[kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-linux-arm64.tar.gz) | `b38810cf87735efb0af027b7c77e4e8c8f5821f235cf33ae9eee346e6d1a0b84`
-[kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-linux-arm.tar.gz) | `a36427c2f2b81d42702a12392070f7dd3635b651bb04ae925d0bdf3ec50f83aa`
-[kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-linux-ppc64le.tar.gz) | `9dee0f636eef09bfec557a50e4f8f4b69e0588bbd0b77f6da50cc155e1679880`
-[kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-linux-s390x.tar.gz) | `4a6246d5de5c3957ed41b8943fa03e74fb646595346f7c72beaf7b030fe6872e`
-[kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-windows-386.tar.gz) | `1ee384f4bb02e614c86bf84cdfdc42faffa659aaba4a1c759ec26f03eb438149`
-[kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-windows-amd64.tar.gz) | `e70d8935abefea0307780e899238bb10ec27c8f0d77702cf25de230b6abf7fb4`
+| filename                                                                                                          | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-client-darwin-386.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-darwin-386.tar.gz)       | `51e0df7e6611ff4a9b3759b05e65c80555317bff03282ef39a9b53b27cdeff42` |
+| [kubernetes-client-darwin-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-darwin-amd64.tar.gz)   | `c6c57cc92cc456a644c0965a6aa2bd260125807b450d69376e0edb6c98aaf4d7` |
+| [kubernetes-client-linux-386.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-linux-386.tar.gz)         | `399c8cb448d76accb71edcb00bee474f172d416c8c4f5253994e4e2d71e0dece` |
+| [kubernetes-client-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-linux-amd64.tar.gz)     | `fde75d7267592b34609299a93ee7e54b26a948e6f9a1f64ced666c0aae4455aa` |
+| [kubernetes-client-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-linux-arm64.tar.gz)     | `b38810cf87735efb0af027b7c77e4e8c8f5821f235cf33ae9eee346e6d1a0b84` |
+| [kubernetes-client-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-linux-arm.tar.gz)         | `a36427c2f2b81d42702a12392070f7dd3635b651bb04ae925d0bdf3ec50f83aa` |
+| [kubernetes-client-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-linux-ppc64le.tar.gz) | `9dee0f636eef09bfec557a50e4f8f4b69e0588bbd0b77f6da50cc155e1679880` |
+| [kubernetes-client-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-linux-s390x.tar.gz)     | `4a6246d5de5c3957ed41b8943fa03e74fb646595346f7c72beaf7b030fe6872e` |
+| [kubernetes-client-windows-386.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-windows-386.tar.gz)     | `1ee384f4bb02e614c86bf84cdfdc42faffa659aaba4a1c759ec26f03eb438149` |
+| [kubernetes-client-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-client-windows-amd64.tar.gz) | `e70d8935abefea0307780e899238bb10ec27c8f0d77702cf25de230b6abf7fb4` |
 
 ### Server Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-server-linux-amd64.tar.gz) | `7fff06370c4f37e1fe789cc160fce0c93535991f63d7fe7d001378f17027d9d8`
-[kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-server-linux-arm64.tar.gz) | `65cd60512ea0bf508aa65f8d22a6f3094db394f00b3cd6bd63fe02b795514ab2`
-[kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-server-linux-arm.tar.gz) | `0ecb341a047f1a9dface197f11f05f15853570cfb474c82538c7d61b40bd53ae`
-[kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-server-linux-ppc64le.tar.gz) | `cea9eed4c24e7f29994ecc12674bff69d108692d3c9be3e8bd939b3c4f281892`
-[kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-server-linux-s390x.tar.gz) | `4d50799e5989de6d9ec316d2051497a3617b635e89fa44e01e64fed544d96e07`
+| filename                                                                                                          | sha256 hash                                                        |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-server-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-server-linux-amd64.tar.gz)     | `7fff06370c4f37e1fe789cc160fce0c93535991f63d7fe7d001378f17027d9d8` |
+| [kubernetes-server-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-server-linux-arm64.tar.gz)     | `65cd60512ea0bf508aa65f8d22a6f3094db394f00b3cd6bd63fe02b795514ab2` |
+| [kubernetes-server-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-server-linux-arm.tar.gz)         | `0ecb341a047f1a9dface197f11f05f15853570cfb474c82538c7d61b40bd53ae` |
+| [kubernetes-server-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-server-linux-ppc64le.tar.gz) | `cea9eed4c24e7f29994ecc12674bff69d108692d3c9be3e8bd939b3c4f281892` |
+| [kubernetes-server-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-server-linux-s390x.tar.gz)     | `4d50799e5989de6d9ec316d2051497a3617b635e89fa44e01e64fed544d96e07` |
 
 ### Node Binaries
 
-filename | sha256 hash
--------- | -----------
-[kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-node-linux-amd64.tar.gz) | `e956b9c1e5b47f800953ad0f82fae23774a2f43079dc02d98a90d5bfdca0bad6`
-[kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-node-linux-arm64.tar.gz) | `ede6a85db555dd84e8d7180bdd58712933c38567ab6c97a80d0845be2974d968`
-[kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-node-linux-arm.tar.gz) | `4ac6a1784fa1e20be8a4e7fa0ff8b4defc725e6c058ff97068bf7bfa6a11c77d`
-[kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-node-linux-ppc64le.tar.gz) | `0d9c8c7e0892d7b678f3b4b7736087da91cb40c5f169e4302e9f4637c516207a`
-[kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-node-linux-s390x.tar.gz) | `2fdde192a84410c784e5d1e813985e9a19ce62e3d9bb2215481cbce9286329da`
-[kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-node-windows-amd64.tar.gz) | `543110cc69b57471f3824d96cbd16b003ac2cddaa19ca4bdefced0af61fd24f2`
+| filename                                                                                                      | sha256 hash                                                        |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [kubernetes-node-linux-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-node-linux-amd64.tar.gz)     | `e956b9c1e5b47f800953ad0f82fae23774a2f43079dc02d98a90d5bfdca0bad6` |
+| [kubernetes-node-linux-arm64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-node-linux-arm64.tar.gz)     | `ede6a85db555dd84e8d7180bdd58712933c38567ab6c97a80d0845be2974d968` |
+| [kubernetes-node-linux-arm.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-node-linux-arm.tar.gz)         | `4ac6a1784fa1e20be8a4e7fa0ff8b4defc725e6c058ff97068bf7bfa6a11c77d` |
+| [kubernetes-node-linux-ppc64le.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-node-linux-ppc64le.tar.gz) | `0d9c8c7e0892d7b678f3b4b7736087da91cb40c5f169e4302e9f4637c516207a` |
+| [kubernetes-node-linux-s390x.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-node-linux-s390x.tar.gz)     | `2fdde192a84410c784e5d1e813985e9a19ce62e3d9bb2215481cbce9286329da` |
+| [kubernetes-node-windows-amd64.tar.gz](https://dl.k8s.io/v1.9.0-alpha.1/kubernetes-node-windows-amd64.tar.gz) | `543110cc69b57471f3824d96cbd16b003ac2cddaa19ca4bdefced0af61fd24f2` |
 
 ## Changelog since v1.8.0-alpha.3
 
