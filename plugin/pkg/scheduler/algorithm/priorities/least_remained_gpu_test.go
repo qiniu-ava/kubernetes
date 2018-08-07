@@ -8,6 +8,7 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	schedulerapi "k8s.io/kubernetes/plugin/pkg/scheduler/api"
 	"k8s.io/kubernetes/plugin/pkg/scheduler/schedulercache"
+	"k8s.io/kubernetes/test/e2e/framework"
 )
 
 func TestLeastRemainedGPU(t *testing.T) {
@@ -62,12 +63,12 @@ func TestLeastRemainedGPU(t *testing.T) {
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						v1.ResourceCPU:       resource.MustParse("1000m"),
-						v1.ResourceMemory:    resource.MustParse("0"),
-						v1.ResourceNvidiaGPU: resource.MustParse("1"),
+						v1.ResourceCPU:                  resource.MustParse("1000m"),
+						v1.ResourceMemory:               resource.MustParse("0"),
+						framework.NVIDIAGPUResourceName: resource.MustParse("1"),
 					},
 					Limits: v1.ResourceList{
-						v1.ResourceNvidiaGPU: resource.MustParse("1"),
+						framework.NVIDIAGPUResourceName: resource.MustParse("1"),
 					},
 				},
 			},
@@ -87,24 +88,24 @@ func TestLeastRemainedGPU(t *testing.T) {
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						v1.ResourceCPU:       resource.MustParse("1000m"),
-						v1.ResourceMemory:    resource.MustParse("0"),
-						v1.ResourceNvidiaGPU: resource.MustParse("1"),
+						v1.ResourceCPU:                  resource.MustParse("1000m"),
+						v1.ResourceMemory:               resource.MustParse("0"),
+						framework.NVIDIAGPUResourceName: resource.MustParse("1"),
 					},
 					Limits: v1.ResourceList{
-						v1.ResourceNvidiaGPU: resource.MustParse("1"),
+						framework.NVIDIAGPUResourceName: resource.MustParse("1"),
 					},
 				},
 			},
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						v1.ResourceCPU:       resource.MustParse("2000m"),
-						v1.ResourceMemory:    resource.MustParse("0"),
-						v1.ResourceNvidiaGPU: resource.MustParse("1"),
+						v1.ResourceCPU:                  resource.MustParse("2000m"),
+						v1.ResourceMemory:               resource.MustParse("0"),
+						framework.NVIDIAGPUResourceName: resource.MustParse("1"),
 					},
 					Limits: v1.ResourceList{
-						v1.ResourceNvidiaGPU: resource.MustParse("1"),
+						framework.NVIDIAGPUResourceName: resource.MustParse("1"),
 					},
 				},
 			},
@@ -116,12 +117,12 @@ func TestLeastRemainedGPU(t *testing.T) {
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						v1.ResourceCPU:       resource.MustParse("1000m"),
-						v1.ResourceMemory:    resource.MustParse("0"),
-						v1.ResourceNvidiaGPU: resource.MustParse("1"),
+						v1.ResourceCPU:                  resource.MustParse("1000m"),
+						v1.ResourceMemory:               resource.MustParse("0"),
+						framework.NVIDIAGPUResourceName: resource.MustParse("1"),
 					},
 					Limits: v1.ResourceList{
-						v1.ResourceNvidiaGPU: resource.MustParse("1"),
+						framework.NVIDIAGPUResourceName: resource.MustParse("1"),
 					},
 				},
 			},
@@ -133,12 +134,12 @@ func TestLeastRemainedGPU(t *testing.T) {
 			{
 				Resources: v1.ResourceRequirements{
 					Requests: v1.ResourceList{
-						v1.ResourceCPU:       resource.MustParse("1000m"),
-						v1.ResourceMemory:    resource.MustParse("0"),
-						v1.ResourceNvidiaGPU: resource.MustParse("4"),
+						v1.ResourceCPU:                  resource.MustParse("1000m"),
+						v1.ResourceMemory:               resource.MustParse("0"),
+						framework.NVIDIAGPUResourceName: resource.MustParse("4"),
 					},
 					Limits: v1.ResourceList{
-						v1.ResourceNvidiaGPU: resource.MustParse("4"),
+						framework.NVIDIAGPUResourceName: resource.MustParse("4"),
 					},
 				},
 			},

@@ -25,7 +25,7 @@ spec:
         - --scheduler-name=ava-scheduler
         - --algorithm-provider=AVAProvider
         - --v=7
-        image: reg-xs.qiniu.io/atlab/ava-kube-scheduler:20180718-4118700f86
+        image: reg-xs.qiniu.io/atlab/ava-kube-scheduler:20180807-f97b498ae2
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

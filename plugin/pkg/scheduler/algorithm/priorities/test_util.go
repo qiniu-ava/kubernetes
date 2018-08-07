@@ -23,6 +23,7 @@ import (
 	"k8s.io/kubernetes/plugin/pkg/scheduler/algorithm"
 	schedulerapi "k8s.io/kubernetes/plugin/pkg/scheduler/api"
 	"k8s.io/kubernetes/plugin/pkg/scheduler/schedulercache"
+	"k8s.io/kubernetes/test/e2e/framework"
 )
 
 func makeNode(node string, milliCPU, memory int64) *v1.Node {
@@ -65,14 +66,14 @@ func makeGPUNode(node string, milliCPU, memory, numGPU int64, gpuModel string) *
 		ObjectMeta: metav1.ObjectMeta{Name: node},
 		Status: v1.NodeStatus{
 			Capacity: v1.ResourceList{
-				v1.ResourceCPU:       *resource.NewMilliQuantity(milliCPU, resource.DecimalSI),
-				v1.ResourceMemory:    *resource.NewQuantity(memory, resource.BinarySI),
-				v1.ResourceNvidiaGPU: *resource.NewQuantity(numGPU, resource.DecimalSI),
+				v1.ResourceCPU:                  *resource.NewMilliQuantity(milliCPU, resource.DecimalSI),
+				v1.ResourceMemory:               *resource.NewQuantity(memory, resource.BinarySI),
+				framework.NVIDIAGPUResourceName: *resource.NewQuantity(numGPU, resource.DecimalSI),
 			},
 			Allocatable: v1.ResourceList{
-				v1.ResourceCPU:       *resource.NewMilliQuantity(milliCPU, resource.DecimalSI),
-				v1.ResourceMemory:    *resource.NewQuantity(memory, resource.BinarySI),
-				v1.ResourceNvidiaGPU: *resource.NewQuantity(numGPU, resource.DecimalSI)},
+				v1.ResourceCPU:                  *resource.NewMilliQuantity(milliCPU, resource.DecimalSI),
+				v1.ResourceMemory:               *resource.NewQuantity(memory, resource.BinarySI),
+				framework.NVIDIAGPUResourceName: *resource.NewQuantity(numGPU, resource.DecimalSI)},
 		},
 	}
 }

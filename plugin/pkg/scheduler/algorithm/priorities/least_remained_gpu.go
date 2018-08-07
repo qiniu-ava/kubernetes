@@ -11,6 +11,7 @@ import (
 )
 
 const maxGPUPriority = 100
+const gpuResourceName = "nvidia.com/gpu"
 
 // LeastRemainedGPUPriorityMap prefer nodes with less remained GPUs if the pod is scheduled on.
 // score = (100 - remained GPU after scheduled)
@@ -22,19 +23,18 @@ func LeastRemainedGPUPriorityMap(pod *v1.Pod, meta interface{}, nodeInfo *schedu
 	zeroPriority := schedulerapi.HostPriority{
 		Host: node.Name,
 	}
+
 	// return fast
-	var nGPU int64
-	for _, container := range pod.Spec.Containers {
-		nGPU += container.Resources.Limits.NvidiaGPU().Value()
-	}
+	nGPU := podRequestsGPU(pod)
 	if nGPU <= 0 {
 		return zeroPriority, nil
 	}
 
-	if nodeInfo.AllocatableResource().NvidiaGPU == 0 {
+	allocatable, requested := nodeGPU(nodeInfo)
+	if allocatable == 0 {
 		return zeroPriority, nil
 	}
-	availableGPU := nodeInfo.AllocatableResource().NvidiaGPU - nodeInfo.RequestedResource().NvidiaGPU
+	availableGPU := allocatable - requested
 	if availableGPU <= 0 || availableGPU < nGPU {
 		return zeroPriority, nil
 	}
@@ -44,11 +44,28 @@ func LeastRemainedGPUPriorityMap(pod *v1.Pod, meta interface{}, nodeInfo *schedu
 		score = 1
 	}
 
-	glog.V(7).Infof("%v -> %v: Least Remained GPU Priority, allocatable %d, capable %d, requesting %d, score %d",
+	glog.V(7).Infof("%v -> %v: Least Remained GPU Priority, allocatable %d, available %d, requesting %d, score %d",
 		pod.Name, node.Name, nodeInfo.AllocatableResource().NvidiaGPU, availableGPU, nGPU, score)
 
 	return schedulerapi.HostPriority{
 		Host:  node.Name,
 		Score: score,
 	}, nil
+}
+
+func podRequestsGPU(pod *v1.Pod) int64 {
+	var res int64
+	for _, c := range pod.Spec.Containers {
+		q := c.Resources.Limits[gpuResourceName]
+		res += q.Value()
+	}
+	return res
+}
+
+func nodeGPU(nodeInfo *schedulercache.NodeInfo) (allocatable, requested int64) {
+	allocatable = nodeInfo.AllocatableResource().ScalarResources[gpuResourceName]
+	for _, p := range nodeInfo.Pods() {
+		requested += podRequestsGPU(p)
+	}
+	return
 }
