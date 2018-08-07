@@ -180,22 +180,22 @@ func TestLeastRemainedGPU(t *testing.T) {
 		},
 		{
 			/*
-				Node1 scores on 0-10 scale: 10 (3 remained)
-				Node2 scores on 0-10 scale:  9 (7 remained)
+				Node1 scores on 0-10 scale: 97 (3 remained)
+				Node2 scores on 0-10 scale: 93 (7 remained)
 			*/
 			pod:          &v1.Pod{Spec: gpu1},
 			nodes:        []*v1.Node{makeGPUNode("machine1", 4000, 10000, 4, "gpu-model-1"), makeGPUNode("machine2", 4000, 10000, 8, "gpu-model-1")},
-			expectedList: []schedulerapi.HostPriority{{Host: "machine1", Score: 10}, {Host: "machine2", Score: 9}},
+			expectedList: []schedulerapi.HostPriority{{Host: "machine1", Score: 97}, {Host: "machine2", Score: 93}},
 			test:         "nothing scheduled, 1 gpu requested, machines with different number of gpus",
 		},
 		{
 			/*
-				Node1 scores on 0-10 scale:  9 (4 remained)
-				Node2 scores on 0-10 scale: 10 (2 remained)
+				Node1 scores on 0-10 scale: 96 (4 remained)
+				Node2 scores on 0-10 scale: 98 (2 remained)
 			*/
 			pod:          &v1.Pod{Spec: gpu2},
 			nodes:        []*v1.Node{makeGPUNode("machine1", 4000, 10000, 8, "gpu-model-1"), makeGPUNode("machine2", 4000, 10000, 8, "gpu-model-1")},
-			expectedList: []schedulerapi.HostPriority{{Host: "machine1", Score: 9}, {Host: "machine2", Score: 10}},
+			expectedList: []schedulerapi.HostPriority{{Host: "machine1", Score: 96}, {Host: "machine2", Score: 98}},
 			test:         "1 gpu requested, pods scheduled with different number of gpus",
 			pods: []*v1.Pod{
 				{Spec: gpu1},
@@ -206,10 +206,10 @@ func TestLeastRemainedGPU(t *testing.T) {
 		},
 		{
 			/*
-				Node1 scores on 0-10 scale:  9 (2 remained)
-				Node2 scores on 0-10 scale: 10 (0 remained)
-				Node3 scores on 0-10 scale:  8 (5 remained)
-				Node4 scores on 0-10 scale:  9 (2 remained)
+				Node1 scores on 0-10 scale:  98 (2 remained)
+				Node2 scores on 0-10 scale: 100 (0 remained)
+				Node3 scores on 0-10 scale:  95 (5 remained)
+				Node4 scores on 0-10 scale:  98 (2 remained)
 			*/
 			pod: &v1.Pod{Spec: gpu2},
 			nodes: []*v1.Node{
@@ -219,10 +219,10 @@ func TestLeastRemainedGPU(t *testing.T) {
 				makeGPUNode("machine4", 4000, 10000, 8, "gpu-model-1"),
 			},
 			expectedList: []schedulerapi.HostPriority{
-				{Host: "machine1", Score: 9},
-				{Host: "machine2", Score: 10},
-				{Host: "machine3", Score: 8},
-				{Host: "machine4", Score: 9},
+				{Host: "machine1", Score: 98},
+				{Host: "machine2", Score: 100},
+				{Host: "machine3", Score: 95},
+				{Host: "machine4", Score: 98},
 			},
 			test: "2 gpu requested, pods scheduled with different or same number of gpus",
 			pods: []*v1.Pod{
@@ -233,12 +233,12 @@ func TestLeastRemainedGPU(t *testing.T) {
 		},
 		{
 			/*
-				Node1 scores on 0-10 scale:  9 (1 remained)
-				Node2 scores on 0-10 scale: 10 (0 remained)
+				Node1 scores on 0-10 scale: 99 (1 remained)
+				Node2 scores on 0-10 scale:  0 (-1 remained)
 			*/
 			pod:          &v1.Pod{Spec: gpu2},
 			nodes:        []*v1.Node{makeGPUNode("machine1", 4000, 10000, 4, "gpu-model-1"), makeGPUNode("machine4", 4000, 10000, 8, "gpu-model-1")},
-			expectedList: []schedulerapi.HostPriority{{Host: "machine1", Score: 9}, {Host: "machine4", Score: 10}},
+			expectedList: []schedulerapi.HostPriority{{Host: "machine1", Score: 99}, {Host: "machine4", Score: 0}},
 			test:         "requested gpu exceed node capacity",
 			pods: []*v1.Pod{
 				{Spec: gpu1},
@@ -251,7 +251,7 @@ func TestLeastRemainedGPU(t *testing.T) {
 	for _, test := range tests {
 		nodeNameToInfo := schedulercache.CreateNodeNameToInfoMap(test.pods, test.nodes)
 		t.Log("testing: ", test.test)
-		list, err := priorityFunction(LeastRemainedGPUPriorityMap, LeastRemainedGPUPriorityReduce)(test.pod, nodeNameToInfo, test.nodes)
+		list, err := priorityFunction(LeastRemainedGPUPriorityMap, nil, nil)(test.pod, nodeNameToInfo, test.nodes)
 		if err != nil {
 			t.Errorf("unexpected error: %v", err)
 		}

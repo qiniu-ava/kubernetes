@@ -24,21 +24,22 @@ spec:
         - --leader-elect=false
         - --scheduler-name=ava-scheduler
         - --algorithm-provider=AVAProvider
-        image: reg-xs.qiniu.io/atlab/ava-kube-scheduler
+        - --v=7
+        image: reg-xs.qiniu.io/atlab/ava-kube-scheduler:20180718-4118700f86
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
             path: /healthz
             port: 10251
           initialDelaySeconds: 15
-        name: kube-second-scheduler
+        name: ava-scheduler
         readinessProbe:
           httpGet:
             path: /healthz
             port: 10251
         resources:
           requests:
-            cpu: '0.1'
+            cpu: '1'
         securityContext:
           privileged: false
         volumeMounts: []
