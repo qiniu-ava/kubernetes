@@ -49,6 +49,7 @@ import (
 	schedulerapi "k8s.io/kubernetes/plugin/pkg/scheduler/api"
 	"k8s.io/kubernetes/plugin/pkg/scheduler/factory"
 	"k8s.io/kubernetes/plugin/pkg/scheduler/schedulercache"
+	ef "k8s.io/kubernetes/test/e2e/framework"
 	"k8s.io/kubernetes/test/integration/framework"
 )
 
@@ -701,4 +702,146 @@ func TestPDBCache(t *testing.T) {
 	}); err != nil {
 		t.Errorf("No PDB was deleted from the cache: %v", err)
 	}
+}
+func TestAVAScheduler(t *testing.T) {
+	context := initTest(t, "test-ava-scheduler")
+	defer cleanupTest(t, context)
+
+	// create 2 cpu node
+	cpuNodes, err := createNodes(context.clientSet, "cpu-node", &v1.ResourceList{
+		v1.ResourceCPU:    resource.MustParse("16"),
+		v1.ResourceMemory: resource.MustParse("64Gi"),
+	}, 2)
+	if err != nil {
+		t.Fatalf("Cannot create cpu nodes: %v", err)
+	}
+	for _, n := range cpuNodes {
+		context.clientSet.CoreV1().Nodes().Create(n)
+	}
+
+	// create pods
+	avaScheduler := "ava-scheduler"
+	cpuPC := &pausePodConfig{
+		Name:          "cpu-pod",
+		Namespace:     context.ns.Name,
+		SchedulerName: avaScheduler,
+		Resources: &v1.ResourceRequirements{
+			Limits: v1.ResourceList{
+				v1.ResourceCPU:    resource.MustParse("1"),
+				v1.ResourceMemory: resource.MustParse("1Gi"),
+			},
+			Requests: v1.ResourceList{
+				v1.ResourceCPU:    resource.MustParse("1"),
+				v1.ResourceMemory: resource.MustParse("1Gi"),
+			},
+		},
+	}
+	cpuPod, err := createPausePod(context.clientSet, initPausePod(context.clientSet, cpuPC))
+	if err != nil {
+		t.Fatalf("Failed to create cpu pod: %v", err)
+	}
+	gpuPC := &pausePodConfig{
+		Name:          "gpu-pod",
+		Namespace:     context.ns.Name,
+		SchedulerName: avaScheduler,
+		Resources: &v1.ResourceRequirements{
+			Limits: v1.ResourceList{
+				v1.ResourceCPU:           resource.MustParse("1"),
+				v1.ResourceMemory:        resource.MustParse("1Gi"),
+				ef.NVIDIAGPUResourceName: resource.MustParse("1"),
+			},
+			Requests: v1.ResourceList{
+				v1.ResourceCPU:           resource.MustParse("1"),
+				v1.ResourceMemory:        resource.MustParse("1Gi"),
+				ef.NVIDIAGPUResourceName: resource.MustParse("1"),
+			},
+		},
+	}
+	gpuPod, err := createPausePod(context.clientSet, initPausePod(context.clientSet, gpuPC))
+	if err != nil {
+		t.Fatalf("Failed to create gpu pod: %v", err)
+	}
+
+	// check point-1:
+	// pods should not be scheduled
+	if err := waitForPodToScheduleWithTimeout(context.clientSet, cpuPod, time.Second*5); err == nil {
+		t.Errorf("test ava scheduler: %s pod got scheduled, %v", cpuPod.Name, err)
+	} else {
+		t.Logf("test ava scheduler: %s pod not scheduled", cpuPod.Name)
+	}
+	if err := waitForPodToScheduleWithTimeout(context.clientSet, gpuPod, time.Second*5); err == nil {
+		t.Errorf("test ava scheduler: %s pod got scheduled, %v", gpuPod.Name, err)
+	} else {
+		t.Logf("test ava scheduler: %s pod not scheduled", gpuPod.Name)
+	}
+
+	// create and start ava scheduler
+	clientSet2 := clientset.NewForConfigOrDie(&restclient.Config{Host: context.httpServer.URL, ContentConfig: restclient.ContentConfig{GroupVersion: testapi.Groups[v1.GroupName].GroupVersion()}})
+	informerFactory2 := informers.NewSharedInformerFactory(context.clientSet, 0)
+	podInformer2 := factory.NewPodInformer(context.clientSet, 0, avaScheduler)
+
+	schedulerConfigFactory2 := factory.NewConfigFactory(
+		avaScheduler,
+		clientSet2,
+		informerFactory2.Core().V1().Nodes(),
+		podInformer2,
+		informerFactory2.Core().V1().PersistentVolumes(),
+		informerFactory2.Core().V1().PersistentVolumeClaims(),
+		informerFactory2.Core().V1().ReplicationControllers(),
+		informerFactory2.Extensions().V1beta1().ReplicaSets(),
+		informerFactory2.Apps().V1beta1().StatefulSets(),
+		informerFactory2.Core().V1().Services(),
+		informerFactory2.Policy().V1beta1().PodDisruptionBudgets(),
+		informerFactory2.Storage().V1().StorageClasses(),
+		v1.DefaultHardPodAffinitySymmetricWeight,
+		enableEquivalenceCache,
+	)
+	schedulerConfig2, err := schedulerConfigFactory2.CreateFromProvider("AVAProvider")
+	if err != nil {
+		t.Errorf("Couldn't create scheduler config: %v", err)
+	}
+	eventBroadcaster2 := record.NewBroadcaster()
+	schedulerConfig2.Recorder = eventBroadcaster2.NewRecorder(legacyscheme.Scheme, v1.EventSource{Component: avaScheduler})
+	eventBroadcaster2.StartRecordingToSink(&clientv1core.EventSinkImpl{Interface: clientv1core.New(clientSet2.CoreV1().RESTClient()).Events("")})
+	go podInformer2.Informer().Run(schedulerConfig2.StopEverything)
+	informerFactory2.Start(schedulerConfig2.StopEverything)
+
+	sched2, _ := scheduler.NewFromConfigurator(&scheduler.FakeConfigurator{Config: schedulerConfig2}, nil...)
+	sched2.Run()
+	defer close(schedulerConfig2.StopEverything)
+
+	// check point-2:
+	// 	- cpuPod should be scheduled
+	// 	- gpuPod should not be scheduled
+	if err := waitForPodToSchedule(context.clientSet, cpuPod); err != nil {
+		t.Errorf("test ava scheduler: %s Pod not scheduled, %v", cpuPod.Name, err)
+	} else {
+		t.Logf("test ava scheduler %s Pod scheduled", cpuPod.Name)
+	}
+
+	if err := waitForPodToScheduleWithTimeout(context.clientSet, gpuPod, time.Second*10); err == nil {
+		t.Errorf("test ava scheduler: %s pod got scheduled, %v", gpuPod.Name, err)
+	} else {
+		t.Logf("test ava scheduler: %s pod not scheduled", gpuPod.Name)
+	}
+
+	// create 1st gpu node
+	gpuNode1, err := createNode(context.clientSet, "gpu-node-0", &v1.ResourceList{
+		v1.ResourceCPU:           resource.MustParse("16"),
+		v1.ResourceMemory:        resource.MustParse("64Gi"),
+		ef.NVIDIAGPUResourceName: resource.MustParse("8"),
+	})
+	if err != nil {
+		t.Fatalf("Cannot create gpu node 1: %v", err)
+	}
+	context.clientSet.CoreV1().Nodes().Create(gpuNode1)
+
+	// check point-3
+	//  gpu-pod should be scheduled
+	if err := waitForPodToSchedule(context.clientSet, gpuPod); err != nil {
+		t.Errorf("test ava scheduler: %s Pod not scheduled, %v", gpuPod.Name, err)
+	} else {
+		t.Logf("test ava scheduler %s Pod scheduled", gpuPod.Name)
+	}
+
 }

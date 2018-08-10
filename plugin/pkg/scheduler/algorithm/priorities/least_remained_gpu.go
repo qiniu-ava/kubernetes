@@ -20,6 +20,10 @@ func LeastRemainedGPUPriorityMap(pod *v1.Pod, meta interface{}, nodeInfo *schedu
 	if node == nil {
 		return schedulerapi.HostPriority{}, fmt.Errorf("node not found")
 	}
+	if glog.V(8) {
+		glog.Info("try to priority pod ", pod, " on node ", node)
+	}
+
 	zeroPriority := schedulerapi.HostPriority{
 		Host: node.Name,
 	}
@@ -45,7 +49,7 @@ func LeastRemainedGPUPriorityMap(pod *v1.Pod, meta interface{}, nodeInfo *schedu
 	}
 
 	glog.V(7).Infof("%v -> %v: Least Remained GPU Priority, allocatable %d, available %d, requesting %d, score %d",
-		pod.Name, node.Name, nodeInfo.AllocatableResource().NvidiaGPU, availableGPU, nGPU, score)
+		pod.Name, node.Name, allocatable, availableGPU, nGPU, score)
 
 	return schedulerapi.HostPriority{
 		Host:  node.Name,
