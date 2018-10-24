@@ -11,6 +11,7 @@ import (
 )
 
 const maxGPUPriority = 100
+const nvidiaGPUResourceName v1.ResourceName = "nvidia.com/gpu"
 
 // LeastRemainedGPUPriorityMap prefer nodes with less remained GPUs if the pod is scheduled on.
 // score = (100 - remained GPU after scheduled)
@@ -22,33 +23,58 @@ func LeastRemainedGPUPriorityMap(pod *v1.Pod, meta interface{}, nodeInfo *schedu
 	zeroPriority := schedulerapi.HostPriority{
 		Host: node.Name,
 	}
-	// return fast
-	var nGPU int64
-	for _, container := range pod.Spec.Containers {
-		nGPU += container.Resources.Limits.NvidiaGPU().Value()
+
+	nLimits := podGPU(pod)
+	nAvailable := nodeGPU(nodeInfo)
+	if nLimits <= 0 {
+		return zeroPriority, nil
 	}
-	if nGPU <= 0 {
+	if nAvailable <= 0 || nAvailable < nLimits {
 		return zeroPriority, nil
 	}
 
-	if nodeInfo.AllocatableResource().NvidiaGPU == 0 {
-		return zeroPriority, nil
-	}
-	availableGPU := nodeInfo.AllocatableResource().NvidiaGPU - nodeInfo.RequestedResource().NvidiaGPU
-	if availableGPU <= 0 || availableGPU < nGPU {
-		return zeroPriority, nil
-	}
-
-	score := maxGPUPriority - int(availableGPU-nGPU)
+	score := maxGPUPriority - int(nAvailable-nLimits)
 	if score <= 1 {
 		score = 1
 	}
 
-	glog.V(7).Infof("%v -> %v: Least Remained GPU Priority, allocatable %d, capable %d, requesting %d, score %d",
-		pod.Name, node.Name, nodeInfo.AllocatableResource().NvidiaGPU, availableGPU, nGPU, score)
+	glog.V(7).Infof("%v -> %v: Least Remained GPU Priority, available %d, requesting %d, score %d",
+		pod.Name, node.Name, nodeInfo.AllocatableResource().NvidiaGPU, nAvailable, nLimits, score)
 
 	return schedulerapi.HostPriority{
 		Host:  node.Name,
 		Score: score,
 	}, nil
+}
+
+func podGPU(pod *v1.Pod) int64 {
+	var nGPU, nInit int64
+	for _, c := range pod.Spec.Containers {
+		nGPU += containerGPU(&c)
+	}
+	for _, c := range pod.Spec.InitContainers {
+		nInit += containerGPU(&c)
+	}
+	if nInit > nGPU {
+		return nInit
+	}
+	return nGPU
+}
+
+func containerGPU(c *v1.Container) int64 {
+	if res, ok := c.Resources.Limits[nvidiaGPUResourceName]; ok {
+		return res.Value()
+	}
+	return 0
+}
+
+func nodeGPU(ni *schedulercache.NodeInfo) int64 {
+	if alloc, ok := ni.AllocatableResource().ScalarResources[nvidiaGPUResourceName]; ok {
+		if req, ok := ni.RequestedResource().ScalarResources[nvidiaGPUResourceName]; ok {
+			if req <= alloc {
+				return alloc - req
+			}
+		}
+	}
+	return 0
 }
