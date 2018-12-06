@@ -843,6 +843,30 @@ func (f *configFactory) CreateFromProvider(providerName string) (*scheduler.Conf
 	return f.CreateFromKeys(provider.FitPredicateKeys, provider.PriorityFunctionKeys, []algorithm.SchedulerExtender{})
 }
 
+// Creates a scheduler with predicate and priority functions from the name of a registered algorithm provider,
+// and extenders from config file
+func (f *configFactory) CreateFromProviderWithExtenders(providerName string, ecs []schedulerapi.ExtenderConfig) (*scheduler.Config, error) {
+	glog.V(2).Infof("Creating scheduler from algorithm provider '%v'", providerName)
+	provider, err := GetAlgorithmProvider(providerName)
+	if err != nil {
+		return nil, err
+	}
+
+	extenders := make([]algorithm.SchedulerExtender, 0)
+	if len(ecs) != 0 {
+		for ii := range ecs {
+			glog.V(2).Infof("Creating extender with config %+v", ecs[ii])
+			if extender, err := core.NewHTTPExtender(&ecs[ii]); err != nil {
+				return nil, err
+			} else {
+				extenders = append(extenders, extender)
+			}
+		}
+	}
+
+	return f.CreateFromKeys(provider.FitPredicateKeys, provider.PriorityFunctionKeys, extenders)
+}
+
 // Creates a scheduler from the configuration file
 func (f *configFactory) CreateFromConfig(policy schedulerapi.Policy) (*scheduler.Config, error) {
 	glog.V(2).Infof("Creating scheduler from configuration: %v", policy)

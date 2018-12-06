@@ -93,6 +93,7 @@ type Configurator interface {
 	Create() (*Config, error)
 	CreateFromProvider(providerName string) (*Config, error)
 	CreateFromConfig(policy schedulerapi.Policy) (*Config, error)
+	CreateFromProviderWithExtenders(providerName string, ecs []schedulerapi.ExtenderConfig) (*Config, error)
 	CreateFromKeys(predicateKeys, priorityKeys sets.String, extenders []algorithm.SchedulerExtender) (*Config, error)
 }
 

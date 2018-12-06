@@ -234,10 +234,10 @@ func (o *Options) applyDeprecatedAlgorithmSourceOptionsToConfig() {
 				},
 			},
 		}
-	case len(o.algorithmProvider) > 0:
-		o.config.AlgorithmSource = componentconfig.SchedulerAlgorithmSource{
-			Provider: &o.algorithmProvider,
-		}
+	}
+
+	if len(o.algorithmProvider) > 0 {
+		o.config.AlgorithmSource.Provider = &o.algorithmProvider
 	}
 }
 
@@ -655,6 +655,16 @@ func (s *SchedulerServer) SchedulerConfig() (*scheduler.Config, error) {
 	source := s.AlgorithmSource
 	var config *scheduler.Config
 	switch {
+	case source.Provider != nil && source.Policy != nil:
+		policy, err := s.loadPolicy()
+		if err != nil {
+			return nil, fmt.Errorf("couldn't load policy file: %v", err)
+		}
+		sc, err := configurator.CreateFromProviderWithExtenders(*source.Provider, policy.ExtenderConfigs)
+		if err != nil {
+			return nil, fmt.Errorf("couldn't create scheduler using provider %q: %v", *source.Provider, err)
+		}
+		config = sc
 	case source.Provider != nil:
 		// Create the config from a named algorithm provider.
 		sc, err := configurator.CreateFromProvider(*source.Provider)
@@ -664,38 +674,9 @@ func (s *SchedulerServer) SchedulerConfig() (*scheduler.Config, error) {
 		config = sc
 	case source.Policy != nil:
 		// Create the config from a user specified policy source.
-		policy := &schedulerapi.Policy{}
-		switch {
-		case source.Policy.File != nil:
-			// Use a policy serialized in a file.
-			policyFile := source.Policy.File.Path
-			_, err := os.Stat(policyFile)
-			if err != nil {
-				return nil, fmt.Errorf("missing policy config file %s", policyFile)
-			}
-			data, err := ioutil.ReadFile(policyFile)
-			if err != nil {
-				return nil, fmt.Errorf("couldn't read policy config: %v", err)
-			}
-			err = runtime.DecodeInto(latestschedulerapi.Codec, []byte(data), policy)
-			if err != nil {
-				return nil, fmt.Errorf("invalid policy: %v", err)
-			}
-		case source.Policy.ConfigMap != nil:
-			// Use a policy serialized in a config map value.
-			policyRef := source.Policy.ConfigMap
-			policyConfigMap, err := s.Client.CoreV1().ConfigMaps(policyRef.Namespace).Get(policyRef.Name, metav1.GetOptions{})
-			if err != nil {
-				return nil, fmt.Errorf("couldn't get policy config map %s/%s: %v", policyRef.Namespace, policyRef.Name, err)
-			}
-			data, found := policyConfigMap.Data[componentconfig.SchedulerPolicyConfigMapKey]
-			if !found {
-				return nil, fmt.Errorf("missing policy config map value at key %q", componentconfig.SchedulerPolicyConfigMapKey)
-			}
-			err = runtime.DecodeInto(latestschedulerapi.Codec, []byte(data), policy)
-			if err != nil {
-				return nil, fmt.Errorf("invalid policy: %v", err)
-			}
+		policy, err := s.loadPolicy()
+		if err != nil {
+			return nil, fmt.Errorf("couldn't load policy file: %v", err)
 		}
 		sc, err := configurator.CreateFromConfig(*policy)
 		if err != nil {
@@ -708,4 +689,42 @@ func (s *SchedulerServer) SchedulerConfig() (*scheduler.Config, error) {
 	// Additional tweaks to the config produced by the configurator.
 	config.Recorder = s.Recorder
 	return config, nil
+}
+
+func (s *SchedulerServer) loadPolicy() (*schedulerapi.Policy, error) {
+	source := s.AlgorithmSource
+	policy := &schedulerapi.Policy{}
+	switch {
+	case source.Policy.File != nil:
+		// Use a policy serialized in a file.
+		policyFile := source.Policy.File.Path
+		_, err := os.Stat(policyFile)
+		if err != nil {
+			return nil, fmt.Errorf("missing policy config file %s", policyFile)
+		}
+		data, err := ioutil.ReadFile(policyFile)
+		if err != nil {
+			return nil, fmt.Errorf("couldn't read policy config: %v", err)
+		}
+		err = runtime.DecodeInto(latestschedulerapi.Codec, []byte(data), policy)
+		if err != nil {
+			return nil, fmt.Errorf("invalid policy: %v", err)
+		}
+	case source.Policy.ConfigMap != nil:
+		// Use a policy serialized in a config map value.
+		policyRef := source.Policy.ConfigMap
+		policyConfigMap, err := s.Client.CoreV1().ConfigMaps(policyRef.Namespace).Get(policyRef.Name, metav1.GetOptions{})
+		if err != nil {
+			return nil, fmt.Errorf("couldn't get policy config map %s/%s: %v", policyRef.Namespace, policyRef.Name, err)
+		}
+		data, found := policyConfigMap.Data[componentconfig.SchedulerPolicyConfigMapKey]
+		if !found {
+			return nil, fmt.Errorf("missing policy config map value at key %q", componentconfig.SchedulerPolicyConfigMapKey)
+		}
+		err = runtime.DecodeInto(latestschedulerapi.Codec, []byte(data), policy)
+		if err != nil {
+			return nil, fmt.Errorf("invalid policy: %v", err)
+		}
+	}
+	return policy, nil
 }

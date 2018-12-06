@@ -65,8 +65,8 @@ type SchedulerPolicyConfigMapSource struct {
 	Name string
 }
 
-// SchedulerAlgorithmSource is the source of a scheduler algorithm. One source
-// field must be specified, and source fields are mutually exclusive.
+// SchedulerAlgorithmSource is the source of a scheduler algorithm.
+// At least one source field must be specified.
 type SchedulerAlgorithmSource struct {
 	// Policy is a policy based algorithm source.
 	Policy *SchedulerPolicySource
