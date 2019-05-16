@@ -76,6 +76,9 @@ type ManagerImpl struct {
 	// e.g. a new device is advertised, two old devices are deleted and a running device fails.
 	callback monitorCallback
 
+	// SM
+	gpuBitmap map[string]int
+
 	// healthyDevices contains all of the registered healthy resourceNames and their exported device IDs.
 	healthyDevices map[string]sets.String
 
@@ -118,6 +121,7 @@ func newManagerImpl(socketPath string) (*ManagerImpl, error) {
 
 		socketname:       file,
 		socketdir:        dir,
+		gpuBitmap:        make(map[string]int), // SM
 		healthyDevices:   make(map[string]sets.String),
 		unhealthyDevices: make(map[string]sets.String),
 		allocatedDevices: make(map[string]sets.String),
@@ -142,7 +146,10 @@ func (m *ManagerImpl) genericDeviceUpdateCallback(resourceName string, devices [
 	m.mutex.Lock()
 	m.healthyDevices[resourceName] = sets.NewString()
 	m.unhealthyDevices[resourceName] = sets.NewString()
-	for _, dev := range devices {
+	for idx, dev := range devices { // SM
+		if resourceName == "nvidia.com/gpu" { // SM
+			m.gpuBitmap[dev.ID] = idx
+		}
 		if dev.Health == pluginapi.Healthy {
 			m.healthyDevices[resourceName].Insert(dev.ID)
 		} else {
@@ -615,7 +622,9 @@ func (m *ManagerImpl) devicesToAllocate(podUID, contName, resource string, requi
 	if int(available.Len()) < needed {
 		return nil, fmt.Errorf("requested number of devices unavailable for %s. Requested: %d, Available: %d", resource, needed, available.Len())
 	}
-	allocated := available.UnsortedList()[:needed]
+	// allocated := available.UnsortedList()[:needed] // SM
+	allocated := m.calcAllocated(resource, needed, devicesInUse, available)
+
 	// Updates m.allocatedDevices with allocated devices to prevent them
 	// from being allocated to other pods/containers, given that we are
 	// not holding lock during the rpc call.
